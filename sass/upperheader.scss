@@ -1,59 +1,85 @@
-.navbar-right{
-	display: inline-block;
-	list-style-type: none;
-	list-style: none;
-	.dropdown-lang{
-		position: relative;
-		display: block;
-		.flag{
-			background-image: url("/icons/ru.png");
-			background-repeat: no-repeat;
-			display: block;
-			height: 12px;
-			left: 15px;
-			margin-top: -7px;
-			position: absolute;
-			top: 50%;
-			width: 18px;
-			.ru{
-				background-position: 0 0;
+.container-fluid {
+	width: 100%;
+	height: 50px;
+	background-color: $creamy;
+	.navbar-sn-icons {
+		display: flex;
+		align-items: center;		
+		width: calc(100%/3);		
+		.navbar-sn-links {
+			list-style-type: none;			
+			.navbar-text {
+				color: $violet-wine;
+				font-family: $font;
+				font-size: 18px;
+				font-weight: 300;
 			}
-			.eng{
-				background-position: 0 -12px;
-			}
-			.kyr{
-				background-position: 0 -24px;
+			a {
+			display: inline-block;
+			padding: 0.7rem 1rem;
+			color: $cream;			
 			}
 		}
-		.dropdown-toggle{
-			margin: 0 15px;
-			padding: 0 17px 0 27px;
-		}
-		.stat{
-			background-image: url("/icons/arrow-down.png");
-			background-repeat: no-repeat;
-			display: block;
-			height: 5px;
-			width: 9px;
-			margin-top: -4px;
-			position: absolute;
-			top: 50%;
-			right: 15px;
-		}
-		.stat-open{
-			background-position: -9px 0;
-		}
-		
-	.dropdown-menu{
-		background-color: $cream !important;
-		min-width: 100px;
-		a{
-			color: $text;
-			padding: 1px 15px 1px 42px;
-		}
-		a:hover{
-			background-color: $creamy;
-		}
+		.navbar-right{
+			display: inline-block;
+			list-style-type: none;
+				.dropdown-lang{
+				position: relative;
+				display: block;
+				.flag{
+					background-image: url("/icons/ru.png");
+					background-repeat: no-repeat;
+					display: block;
+					height: 12px;
+					left: 15px;
+					margin-top: -7px;
+					position: absolute;
+					top: 50%;
+					width: 18px;
+					.ru{
+						background-position: 0 0;
+					}
+					.eng{
+						background-position: 0 -12px;
+					}
+					.kyr{
+						background-position: 0 -24px;
+					}
+				}
+				.dropdown-toggle{
+					margin: 0 15px;
+					padding: 0 17px 0 27px;
+				}
+				.stat{
+					background-image: url("/icons/arrow-down.png");
+					background-repeat: no-repeat;
+					display: block;
+					height: 5px;
+					width: 9px;
+					margin-top: -4px;
+					position: absolute;
+					top: 50%;
+					right: 15px;
+				}
+				.stat-open{
+					background-position: -9px 0;
+				}
+				
+			.dropdown-menu{
+				background-color: $cream !important;
+				min-width: 100px;
+				a{
+					color: $text;
+					padding: 1px 15px 1px 42px;
+				}
+				a:hover{
+					background-color: $creamy;
+				}
+			}
 	}
+
+
+}
+
 	}
 }
