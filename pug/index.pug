@@ -3,8 +3,47 @@ html(lang="en")
     include includes/head.pug
     body
         include includes/header.pug
-
-        
+        .main-content
+            .container
+                .mySlides.fade
+                    img(src="../images/sldone.jpg")
+                .mySlides.fade
+                    img(src="../images/sldtwo.jpg")
+                .mySlides.fade
+                    img(src="../images/sldthree.jpg")
+                .mySlides.fade
+                    img(src="../images/sldfour.jpg")
+                .mySlides.fade
+                    img(src="../images/sldfive.jpg")
+                a.prev(onclick="plusSlides(-1)") &#10094
+                a.next( onclick="plusSlides(1)") &#10095 
+                .dot_container
+                    span.dot(onclick="currentSlide(1)")
+                    span.dot(onclick="currentSlide(2)")
+                    span.dot(onclick="currentSlide(3)")
+                    span.dot(onclick="currentSlide(4)")
+                    span.dot(onclick="currentSlide(5)")
+                .advantages
+                    h2 Наши преимущества
+                    .main_block_advantages
+                        .md_block_advantages.first_block
+                            .block_wrap
+                                img(src="../icons/search.svg" alt="")
+                                .text_block
+                                    h3 Удобный поиск салонов
+                                    p Выбирайте удобные Вам район, время и услуги
+                        .md_block_advantages.second_block
+                            .block_wrap
+                                img.check(src="../icons/check.svg" alt="")
+                                .text_block
+                                    h3 Реальные контакты
+                                    p Действующие адреса и телефоны
+                        .md_block_advantages.third_block
+                            .block_wrap
+                                img(src="../icons/refresh.svg" alt="")
+                                .text_block
+                                    h3 Обновляемая информация о салонах
+                                    p Регулярно обновляемая информация о салонах
 
                                           
         include includes/footer.pug

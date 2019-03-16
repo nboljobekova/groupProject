@@ -1,0 +1,54 @@
+.main-content {
+    width: 100%;
+    background-color: $cream;
+}
+
+.advantages {
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    font-family: $font;
+    color: $text;
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        color: $violet-wine;
+        margin-bottom: 20px;
+    }
+    .main_block_advantages {
+        display: flex;
+        flex-direction: column;
+        .md_block_advantages {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            .block_wrap {
+                width: 33%;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 10%;
+                    margin-bottom: 10px;
+                }
+               .text_block {
+                    text-align: center;
+                    h3 {
+                        font-weight: 600;
+                        line-height: 2em;
+                        color: $violet-wine;
+                    }
+                }
+            }   
+        }         
+        .first_block {
+            justify-content: flex-start;
+        }
+        .second_block {
+            justify-content: center;
+        }
+        .third_block {
+            justify-content: flex-end;
+        }
+    }
+}

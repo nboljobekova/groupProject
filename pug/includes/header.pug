@@ -1,19 +1,20 @@
-.container-fluid
-    .row
-        ul.navbar-sn-icons
-            li.navbar-sn-links
-                span.navbar-text Мы в соц. сетях        
-            li.navbar-sn-links
-                a(href="#"): img(src="./icons/instagram.svg" alt="insta" width="25" height="25")
-            li.navbar-sn-links
-                a(href="#"): img(src="./icons/facebook.svg" alt="fb" width="25" height="25")
-  
-                                    
-.lowerheader
+header
     .container
-        .row
+        .row.upperheader
+            ul.navbar-sn-icons      
+                li.navbar-sn-links
+                    a(href="#"): img(src="../icons/instagram.svg" alt="insta" width="25" height="25")
+                li.navbar-sn-links
+                    a(href="#"): img(src="../icons/facebook.svg" alt="fb" width="25" height="25")
+            nav.main-nav
+                ul.navbar-sign-list.modal-signin-trigger
+                    li
+                        a.navbar-sign-item(href='#0', data-signin="login") Вход
+                    li
+                        a.navbar-sign-item(href="#0", data-signin="signup") Регистрация
+        .row.lowerheader
             .logo-wrap
-                a(href="#"): img(src="./images/Logo.svg", alt="logo")
+                img(src="../images/logo_tr.svg", alt="logo")
             ul.nav
                 li.nav-item
                     a(href="#") Главная
@@ -23,19 +24,3 @@
                     a(href="#") Акции
                 li.nav-item
                     a(href="#") Показать на карте
-                       
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-   
