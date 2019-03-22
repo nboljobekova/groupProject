@@ -1,0 +1,26 @@
+#to-top {               
+    position: fixed;
+    bottom: 160px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid $violet-wine;
+    background: $cream;
+    z-index: 100;
+    cursor: pointer;
+    outline: 0!important;           
+    &:after {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid $violet-wine;
+        border-left: 2px solid $violet-wine;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 4px; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
+
+}
+}
