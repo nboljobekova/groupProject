@@ -1,0 +1,86 @@
+h1 {
+    font-style: italic;
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+.salon_main_block{
+    width: 100%;
+    height: auto;
+    margin-top:50px;
+    margin-bottom: 100px;
+    h1 {
+        font-style: italic;
+    }
+    .salon_card {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        .salon_logo {
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            height: 150px;
+            img {
+                width: 95%;
+                height: 95%;
+                transition: .5s ease;
+                border-radius: 10px;
+            }
+            img:hover {
+                width: 100%;
+                height: 100%;
+                opacity: .5;
+            }
+        }
+        .salon_info {
+            width: 40%;
+            min-height: 150px;
+            margin: 0;
+            margin-left: 30px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .salon_title {
+                margin: 0;
+                padding: 0;
+                font-size: 18px;
+            }
+            .salon_adress {
+                margin: 0;
+                padding: 0;
+                font-size: 15px;
+                line-height: 1.8;
+            }
+            .salon_btn {
+                width: 150px;
+                height: 30px;
+                background-color: #DB7093;
+                border-radius: 30px;
+                color: #fff;
+                font-size: 15px;
+                animation: radial-pulse 1s infinite;
+            }
+        }
+    }
+}
+
+@keyframes radial-pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgb(255,192,203);
+    }
+    100% {
+      box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+
+
+
