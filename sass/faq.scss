@@ -1,0 +1,34 @@
+.heading{
+    text-align: center;
+}
+.faq-text {
+    text-align: center;
+}
+
+
+#accordeon {
+    width: 100%;    
+    margin: 0 auto;
+    .accordeon-question-title {
+        background-color: $creamy;
+        text-align: justify;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0.3rem 2rem;
+        &.active + .faq-answer {
+            display: block;
+        }
+    }
+    .faq-answer{
+        display: none;
+        p {
+            margin: 1.5rem 2rem;
+}
+   
+    }
+}
+
+
+
