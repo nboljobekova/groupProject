@@ -113,6 +113,9 @@ svg {
   width: 100%;
   background-color: #F4E7D7; }
 
+.search-category {
+  display: flex; }
+
 .advantages {
   padding: 3em 0;
   display: flex;
@@ -727,6 +730,7 @@ x signin/signup popup
     right: 0;
     margin: auto; }
 
+<<<<<<< Updated upstream
 h1 {
   font-style: italic;
   margin-top: 3rem;
@@ -795,3 +799,28 @@ h1 {
     box-shadow: 0 0 0 0px pink; }
   100% {
     box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0); } }
+=======
+.heading {
+  text-align: center; }
+
+.faq-text {
+  text-align: center; }
+
+#accordeon {
+  width: 100%;
+  margin: 0 auto; }
+  #accordeon .accordeon-question-title {
+    background-color: #e9dccd;
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0.3rem 2rem; }
+    #accordeon .accordeon-question-title.active + .faq-answer {
+      display: block; }
+  #accordeon .faq-answer {
+    display: none; }
+    #accordeon .faq-answer p {
+      margin: 1.5rem 2rem; }
+>>>>>>> Stashed changes

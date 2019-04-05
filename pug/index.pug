@@ -23,6 +23,33 @@ html(lang="en")
                     span.dot(onclick="currentSlide(3)")
                     span.dot(onclick="currentSlide(4)")
                     span.dot(onclick="currentSlide(5)")
+                .search-category
+                    .form
+                        select#district(name="propertyType")
+                            option(value="") Район
+                            option(value="0") Филармония
+                            option(value="1") ЦУМ
+                            option(value="2") Восток-5
+                            option(value="3") Юг-2
+                            option(value="4") Медакадемия
+                            option(value="5") ШВК
+                            option(value="6") Политех
+                            option(value="7") Джал
+                            option(value="8") 5 мкр
+                            option(value="9") 6 мкр
+                            option(value="10") 7 мкр
+                            option(value="11") 8 мкр
+                            option(value="12") 9 мкр
+                            option(value="13") 10 мкр
+                            option(value="14") 11 мкр
+                            option(value="15") 12 мкр
+                            option(value="16") Асанбай
+                    .form 
+                        select#barbers(name="propertyType")
+                            option(value="") Салоны красоты
+                          
+                    
+                
                 .advantages
                     h2 Наши преимущества
                     .main_block_advantages
@@ -46,5 +73,6 @@ html(lang="en")
                                     p Регулярно обновляемая информация о салонах
                 button#to-top       
 
-        script(src="../script/totop.js")                                  
+        script(src="../script/totop.js")
+        script(src="../script/select.js")                                  
         include includes/footer.pug
