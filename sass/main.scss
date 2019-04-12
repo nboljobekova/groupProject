@@ -2,8 +2,43 @@
     width: 100%;
     background-color: $cream;
 }
+.main-info {
+    height: 350px;
+    background-color: $violet-wine;
+    color: $creamy;
+    padding: 1.5rem;
+    .display2 {
+        text-align: center;
+        text-shadow: 1px 1px 1px $cream;
+        
+    }
+    .general-info{            
+            word-spacing: 0.1em;
+            line-height: 175%;
+            text-align: justify;
+            padding-top: 1rem;
+            padding-bottom: 1rem;      
+    }
+}
 .search-category{
+    margin-top: 3rem;
     display: flex;
+    justify-content: right;
+    align-items: center;
+    .form {
+        width: 250px;
+        height: 30px;  
+        select{
+            width: 200px;
+            height: 30px; 
+            border-radius: 5px;
+            border: 1px solid $violet-wine; 
+            color: $violet-wine;
+            font-family: Rubik;
+            font-weight: 600;
+            background-color: $cream;
+        }           
+    }
 }
 .advantages {
     padding: 3em 0;
