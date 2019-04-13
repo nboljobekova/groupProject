@@ -5,24 +5,17 @@ html(lang="en")
         include includes/header.pug
         .main-content
             .container
-                .mySlides.fade
-                    img(src="../images/sldone.jpg")
-                .mySlides.fade
-                    img(src="../images/sldtwo.jpg")
-                .mySlides.fade
-                    img(src="../images/sldthree.jpg")
-                .mySlides.fade
-                    img(src="../images/sldfour.jpg")
-                .mySlides.fade
-                    img(src="../images/sldfive.jpg")
-                a.prev(onclick="plusSlides(-1)") &#10094
-                a.next( onclick="plusSlides(1)") &#10095 
-                .dot_container
-                    span.dot(onclick="currentSlide(1)")
-                    span.dot(onclick="currentSlide(2)")
-                    span.dot(onclick="currentSlide(3)")
-                    span.dot(onclick="currentSlide(4)")
-                    span.dot(onclick="currentSlide(5)")
+                #slideshow
+                    div
+                        img(src="../images/sldone.jpg")
+                    div
+                        img(src="../images/sldtwo.jpg")
+                    div
+                        img(src="../images/sldthree.jpg")
+                    div
+                        img(src="../images/sldfour.jpg")
+                    div
+                        img(src="../images/sldfive.jpg")   
                 .advantages
                     h2 Наши преимущества
                     .main_block_advantages
@@ -45,6 +38,5 @@ html(lang="en")
                                     h3 Обновляемая информация о салонах
                                     p Регулярно обновляемая информация о салонах
                 button#to-top       
-
         script(src="../script/totop.js")                                  
         include includes/footer.pug

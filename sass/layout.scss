@@ -3,35 +3,36 @@
     margin: 0 auto;
     padding: 0;
     .row {
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
+        height: auto;
+    }
+    @for $i from 1 through $column_count {
+        .col-#{$i} {
+            width: (100% / $column_count) * $i;
+            padding: {
+                left: 10px;
+                right: 10px;
+            }
+            flex-shrink: 0;
         }
     }
-@for $i from 1 through $column_count {
-    .col-#{$i} {
-        width: (100% / $column_count)*$i;
-    }
-}
-@media (min-width: 576px){
-    .container {
-        width: 540px
-    }
-}
-@media (min-width: 768px){
-    .container {
-        width: 720px
-    }
-}
-@media (min-width: 992px){
-    .container {
-        width: 960px
-    }
-}
-@media (min-width: 1200px){
-    .container {
-        width: 1140px
+    @each $name, $mw in $brakepoints {
+        @media (min-width: $mw) {
+            & {
+                width: $mw - 30;
+            }
+
+            @for $i from 1 through $column_count {
+                .col-#{$name}-#{$i} {
+                    width: (100% / $column_count) * $i;
+                    padding: {
+                        left: 10px;
+                        right: 10px;
+                    }
+                    flex-shrink: 0;
+                }
+            }
+        }
     }
 }

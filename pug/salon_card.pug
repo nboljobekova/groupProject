@@ -3,58 +3,70 @@ html(lang="en")
     include includes/head.pug
     body
         include includes/header.pug
-        .container
-            h1 Каталог салонов в Бишкеке
-            .row.salon_main_block
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_1.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title Студия красоты SABI
-                            p.salon_adress ул. Байтик-Баатыра 7/Б <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_2.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title MARIA NAILS
-                            p.salon_adress ул. Ахунбаева 114/1 <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_3.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title B.Studio
-                            p.salon_adress ул. Токтогула 6/a <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_4.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title MEDITERRANEAN Beauty 
-                            p.salon_adress 10 м/н, д.36 <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_5.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title N I K A shope & NS
-                            p.salon_adress БЦ "Vivat" 1 этаж <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-                .col-6.col-lg.col-md.col-sm
-                    .salon_card
-                        .salon_logo
-                            img(src="../images/logo_6.jpg", alt="")
-                        .salon_info 
-                            h2.salon_title SHURAKOVA BS
-                            p.salon_adress Проспект Чуй 121 <br/> tel: +996 555 928713
-                            button.salon_btn Записаться
-    include includes/footer.pug
+        .main-content
+            .container
+                #slideshow
+                    div
+                        img(src="../images/bg1.jpg")
+                    div
+                        img(src="../images/bg2.jpg")
+                    div
+                        img(src="../images/bg3.jpg")
+                    div
+                        img(src="../images/bg4.jpg")
+                    div
+                        img(src="../images/bg5.jpg")   
+                h1 Каталог салонов в Бишкеке
+                .row
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_1.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title Студия красоты SABI
+                                p.salon_adress ул. Байтик-Баатыра 7/Б <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_2.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title MARIA NAILS
+                                p.salon_adress ул. Ахунбаева 114/1 <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_3.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title B.Studio
+                                p.salon_adress ул. Токтогула 6/a <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_4.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title MEDITERRANEAN Beauty 
+                                p.salon_adress 10 м/н, д.36 <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_5.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title N I K A shope & NS
+                                p.salon_adress БЦ "Vivat" 1 этаж <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+                    .col-6.col-lg-6.col-md-10.col-sm-12
+                        .salon_card
+                            .salon_logo
+                                img(src="../images/logo_6.jpg", alt="")
+                            .salon_info 
+                                h2.salon_title SHURAKOVA BS
+                                p.salon_adress Проспект Чуй 121 <br/> tel: +996 555 928713
+                                button.salon_btn Записаться
+        include includes/footer.pug
 
 
             
