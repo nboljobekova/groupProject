@@ -451,16 +451,14 @@ svg {
   overflow: hidden;
   padding: 0px;
   border-radius: 5px; }
-
-#slideshow > div {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px; }
-
-#slideshow > div > img {
-  width: 100%; }
+  #slideshow > div {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px; }
+  #slideshow > img {
+    width: 100%; }
 
 header {
   background-color: #F4E7D7; }
