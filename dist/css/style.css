@@ -373,7 +373,7 @@ svg {
   background-color: #F4E7D7; }
 
 .main-info {
-  height: 350px;
+  height: 100%;
   background-color: #300016;
   color: #e9dccd;
   padding: 1.5rem; }

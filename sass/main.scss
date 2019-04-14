@@ -3,14 +3,13 @@
     background-color: $cream;
 }
 .main-info {
-    height: 350px;
+    height: 100%;
     background-color: $violet-wine;
     color: $creamy;
     padding: 1.5rem;
     .display2 {
         text-align: center;
         text-shadow: 1px 1px 1px $cream;
-        
     }
     .general-info{            
             word-spacing: 0.1em;
