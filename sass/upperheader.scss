@@ -4,6 +4,12 @@ header{
 .row {
 	height: 50px;
 	}
+.upperheader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .navbar-sn-icons {
 	display: flex;
 	align-items: center;			

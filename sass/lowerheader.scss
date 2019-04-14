@@ -1,5 +1,8 @@
 .lowerheader {
     background-image: linear-gradient(to right, $cream, $violet-wine);
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
     .logo-wrap {
         img {
         height: 50px; }

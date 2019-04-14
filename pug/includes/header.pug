@@ -9,11 +9,11 @@ header
                 li.navbar-sn-links
                     a(href="#"): img(src="../icons/whatsapp.svg" alt="wh" width="25" height="25")
             nav.main-nav
-                ul.navbar-sign-list.modal-signin-trigger
+                ul.navbar-sign-list
                     li
-                        a.navbar-sign-item(href='#0', data-signin="login") Вход
+                        a.navbar-sign-item.modal-open-btn(href='#0') Вход
                     li
-                        a.navbar-sign-item(href="#0", data-signin="signup") Регистрация
+                        a.navbar-sign-item.modal-open-btn(href="#0") Регистрация
         .row.lowerheader
             .logo-wrap
                 img(src="../images/logo_tr.svg", alt="logo")
@@ -26,3 +26,4 @@ header
                     a(href="#") Акции
                 li.nav-item
                     a(href="#") Показать на карте
+include ./modal.pug

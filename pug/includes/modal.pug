@@ -1,106 +1,68 @@
-.modal-signin <!-- this is the entire modal form, including the background -->
-    .modal-signin-container <!-- this is the container wrapper -->
-        ul.modal-signin-switcher.modal-signin-trigger
-            li
-                a(href="#0", data-signin="login", data-type="login") Вход
-            li
-                a(href="#0", data-signin="signup", data-type="signup") Регистрация
+<!-- Several modals -->
 
-        .modal-signin-block data-type="login <!-- log in form -->
-            form.modal-signin-form
-                p.modal-signin-fieldset
-                    label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace (for="signin-email) E-mail
-                    input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signin-email(type="email", placeholder="E-mail")
-                    span.modal-signin-error Ошибка!
-
-                p.modal-signin-fieldset
-                    label.modal-signin-label.modal-signin-label--password.modal-signin-label--image-replace (for="signin-password") Пароль
-                    <input class="modal-signin-input modal-signin-input--full-width modal-signin-input--has-padding modal-signin-input--has-border" 
-                p.modal-signin-fieldset
-                    input.modal-signin-input#remember-me(type="checkbox", checked)
-                    label (for="remember-me") Запомнить меня
-
-                p.modal-signin-fieldset
-                    input.modal-signin-input.modal-signin-input--full-width(type="submit", value="Войти")
-            
-            
-            p.modal-signin-bottom-message.modal-signin-trigger 
-            a (href="#0") <!-- modal-signin-block -->
-
-            .modal-signin-block (data-type="signup") <!-- sign up form -->
-                form.modal-signin-form
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--username.modal-signin-label--image-replace (for="signup-username") Название салона
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-username(type="text", placeholder="Название салона")
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace (for="signup-email") Адрес
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-username(type="text", placeholder="Адрес салона")
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace(for="signup-phone") Телефон
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-phone(type="tel" placeholder="Контактный телефон (н:0ххххххххх)", maxlength="10", pattern="[0-9]{3} [0-9]{3} [0-9]{6}", required)
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace (for="signup-district") Район
-                        select.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-district (name="district"б  placeholder="Район")
-                                option(value="") Район
-                                option(value="phil") Филармония
-                                option(value="zum") ЦУМ
-                                option(value="east-5") Восток-5
-                                option(value="south-2") Юг-2
-                                option(value="med") Медакадемия
-                                option(value="sham") ШВК
-                                option(value="polit") Политех
-                                option(value="jal") Джал
-                                option(value="5dis") 5 мкр
-                                option(value="6dis") 6 мкр
-                                option(value="7dis") 7 мкр
-                                option(value="8dis") 8 мкр
-                                option(value="9dis") 9 мкр
-                                option(value="10dis") 10 мкр
-                                option(value="11dis") 11 мкр
-                                option(value="12dis") 12 мкр
-                                option(value="asan") Асанбай			
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace (for="signup-email") Услуги
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-username(type="radio", placeholder="Виды услуг")
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--password.modal-signin-label--image-replace(for="signup-password") Пароль
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#signup-password(type="text",  placeholder="Пароль")
-                        a.modal-signin-hide-password (href="#0") Скрыть
-                        span.modal-signin-error Ошибка!
-
-                    p.modal-signin-fieldset
-                        input#accept-terms.modal-signin-inpu(type="checkbox")
-                        label(for="accept-terms") Я согласен (согласна) с 
-                        a (href="#0") Правилами
-
-                    p.modal-signin-fieldset
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding(type="submit", value="Создать аккаунт")
 <!-- modal-signin-block -->
+.myModal.modal
+  .modal-content
+    span.close x
+    form.modal_form
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--email
+            input.modal-signin-input#signin-email(type="email", placeholder="E-mail", required)
 
-            .modal-signin-block (data-type="reset") <!-- reset password form -->
-                p.modal-signin-message Забыли пароль? Введите пожалуйста Ваш email адрес. Вы получите ссылку на обновление пароля.
-                form.modal-signin-form
-                    p.modal-signin-fieldset
-                        label.modal-signin-label.modal-signin-label--email.modal-signin-label--image-replace (for="reset-email") E-mail
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding.modal-signin-input--has-border#reset-email(type="email", placeholder="E-mail")
-                        span.modal-signin-error Ошибка!
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--password
+            input.modal-signin-input#signin-password(type="password", placeholder="Пароль", required)
 
-                    p.modal-signin-fieldset
-                        input.modal-signin-input.modal-signin-input--full-width.modal-signin-input--has-padding(type="submit" value="Обновить пароль")
-				
+        p.modal-signin-fieldset
+            button.modal-signin-input#modal-signin-btn(type="submit") Войти
 
-                p.modal-signin-bottom-message.modal-signin-trigger
-                a(href="#0") 			 <!-- modal-signin-block -->
-            a.modal-signin-close (href="#0") Close
-<!-- modal-signin-container -->
-<!-- modal-signin -->
+
+<!-- modal-signup-block -->
+.myModal.modal
+  .modal-content
+    span.close x
+    form.modal_form
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--username
+            input.modal-signin-input#signup-username(type="text", placeholder="Название салона", required)
+
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--address
+            input.modal-signin-input#signup-address(type="text", placeholder="Адрес салона", required)
+
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--phone
+            input.modal-signin-input#signup-phone(type="tel" placeholder="Контактный телефон ( н: 0ххх хххххх)", maxlength="11", pattern="[0-9]{4} [0-9]{6}", required)
+
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--location
+            select.modal-signin-input#signup-district (name="district" placeholder="Район", required)
+                option(value="") Район
+                option(value="phil") Филармония
+                option(value="zum") ЦУМ
+                option(value="east-5") Восток-5
+                option(value="south-2") Юг-2
+                option(value="med") Медакадемия
+                option(value="sham") ШВК
+                option(value="polit") Политех
+                option(value="jal") Джал
+                option(value="5dis") 5 мкр
+                option(value="6dis") 6 мкр
+                option(value="7dis") 7 мкр
+                option(value="8dis") 8 мкр
+                option(value="9dis") 9 мкр
+                option(value="10dis") 10 мкр
+                option(value="11dis") 11 мкр
+                option(value="12dis") 12 мкр
+                option(value="asan") Асанбай			
+
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--email
+            input.modal-signin-input#signup-email(type="email", placeholder="E-mail", required)
+
+        p.modal-signin-fieldset
+            label.modal-signin-label-image.modal-signin-label--password
+            input.modal-signin-input#signup-password(type="password", placeholder="Пароль", required)
+
+        p.modal-signin-fieldset
+            button.modal-signin-input#modal-signup-btn(type="submit") Зарегистрироваться
