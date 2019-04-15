@@ -924,14 +924,15 @@ h1 {
     align-items: center; }
     .newheader .navbar-sign-list li {
       display: inline-block;
-      padding: 1.2rem 0.1rem; }
+      padding: 0.7rem 0.1rem; }
   .newheader .navbar-sign-item {
     display: inline-block;
-    background-color: #F4E7D7;
     height: 35px;
-    color: #300016;
+    color: #F4E7D7;
+    margin-top: 0.3em;
     padding: .6em 1em;
-    border-radius: .7em; }
+    border-radius: 1em;
+    box-shadow: 0px 2px 3px #593244; }
   .newheader .navbar-sign-item:hover {
-    background-color: #300016;
-    color: #F4E7D7; }
+    background-color: #F4E7D7;
+    color: #300016; }

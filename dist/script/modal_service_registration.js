@@ -105,5 +105,3 @@ window.onclick = function(event) {
 
 // Signup modal:
 // 1. btn.onclick doesn't refresh input areas (="") and close modal
-
-
