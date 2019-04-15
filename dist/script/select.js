@@ -16,8 +16,8 @@ var filarr =
         {title: "Jibsnails&Beauty", address: "Манаса проспект, 89", phone: "+996 778–22–23–19"},      
         {title: "BigBro barber shop", address: "Чуй проспект, 178", phone: "+996 709–58–58–88"},          
         {title: 'Керемет', address: "Чуй проспект, 170", phone: "+996 700–57–58–99"},
-    ],
-var tsum = 
+];
+var zum=(
 [
     {title: "Lisap Milano", address: "ул. Токтогула, 87", phone: "+996 554–28–02–79"}, 
     {title: "GoldWell", address: "ул. Жумабек, 123", phone: "+996 555–05–35–55"}, 
@@ -58,8 +58,8 @@ var tsum =
     {title: 'Lebel', address: "", phone: ""},
     {title: 'Кыз Жибек', address: "", phone: ""},
     {title: 'Selective Professional', address: "", phone: ""},
-],
-var vost =
+]),
+var vost=(
 [
     {title: "BigBro barber shop", address: "Чуй проспект, 50", phone: "+996 709–58–88–58"}, 
     {title: 'Samira', address: "", phone: ""},
@@ -78,8 +78,8 @@ var vost =
     {title: 'Адис', address: "", phone: ""},
     {title: 'Рахат М', address: "", phone: ""},
     {title: 'Ажар Style', address: "", phone: ""},
-],
-var yug =
+]),
+var yug =(
 [
     {title: 'Каприз', address: "ул. Максима Горького, 81а", phone: "+996 555–12–06–03"},
     {title: 'Царевна', address: "", phone: ""},
@@ -100,7 +100,7 @@ var yug =
     {title: 'Карэ Классик', address: "", phone: ""},
     {title: 'Студия перманентного макияжа Каныкей Кадырбаевой', address: "", phone: ""},
     {title: "Bigudini", address: "ул. Касыма Тыныстанова, 38", phone: "+996 555–31–26–70"},
-],
+]),
 var medakadem =
 [ 
     {title: 'Belle', address: "", phone: ""},
