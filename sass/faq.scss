@@ -1,6 +1,7 @@
 .heading{
     text-align: center;
 }
+
 .faq-text {
     text-align: center;
 }
@@ -8,7 +9,8 @@
     width: 100%;    
     margin: 0 auto;
     .accordeon-question-title {
-        background-color: $creamy;
+        background-color: $violet-wine;
+        color: $cream;
         text-align: justify;
         padding: 10px;
         font-weight: bold;
@@ -23,8 +25,7 @@
         display: none;
         p {
             margin: 1.5rem 2rem;
-}
-   
+        }  
     }
 }
 
