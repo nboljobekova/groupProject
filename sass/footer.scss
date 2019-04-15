@@ -27,9 +27,28 @@
             }
         }
         .block2{
+            width: calc(100%*0.3); 
+            height:120px;
+            border: 1px solid $violet-wine;   
+            border-left-color: $cream;                    
+            color: $cream;  
+            margin-left: 1rem; 
+            padding-left: 2rem;       
+            .partners-text {
+                color: $cream;
+                .partners-info {
+                    color: $cream;
+                    padding-top: 0.5rem;  
+                    a {
+                        list-style-type: none;
+                        color: $cream; 
+        }
+    }
+}
+        }
+        .block3{
             width: calc(100%/3);           
             border: 1px solid $violet-wine;
-            border-right-color: $cream;
             border-left-color: $cream;
             display: flex;
             flex-direction: column;
@@ -47,21 +66,4 @@
                 padding-bottom: 0rem;
             }
         }
-        .block3{
-            width: calc(100%/3);           
-            display: flex; 
-            flex-direction: column;       
-            justify-content: center;
-            align-items: center;
-            border: 1px solid $violet-wine;
-            margin-left: 1.5em;
-            margin-right: 1.5rem;
-            color: $cream;    
-            .logo-text {
-                display: flex;
-                flex-direction: column;               
-                margin-top: 0;
-                padding-top: 0;
-            }          
-        }  
-    }
+}
