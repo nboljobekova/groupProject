@@ -555,52 +555,6 @@ header {
       padding: 0.7rem 0.5rem;
       color: #F4E7D7; }
 
-.navbar-right {
-  display: inline-block;
-  list-style-type: none; }
-  .navbar-right .dropdown-lang {
-    position: relative;
-    display: block; }
-    .navbar-right .dropdown-lang .flag {
-      background-image: url("/icons/ru.png");
-      background-repeat: no-repeat;
-      display: block;
-      height: 12px;
-      left: 15px;
-      margin-top: -7px;
-      position: absolute;
-      top: 50%;
-      width: 18px; }
-      .navbar-right .dropdown-lang .flag .ru {
-        background-position: 0 0; }
-      .navbar-right .dropdown-lang .flag .eng {
-        background-position: 0 -12px; }
-      .navbar-right .dropdown-lang .flag .kyr {
-        background-position: 0 -24px; }
-    .navbar-right .dropdown-lang .dropdown-toggle {
-      margin: 0 15px;
-      padding: 0 17px 0 27px; }
-    .navbar-right .dropdown-lang .stat {
-      background-image: url("/icons/arrow-down.png");
-      background-repeat: no-repeat;
-      display: block;
-      height: 5px;
-      width: 9px;
-      margin-top: -4px;
-      position: absolute;
-      top: 50%;
-      right: 15px; }
-    .navbar-right .dropdown-lang .stat-open {
-      background-position: -9px 0; }
-    .navbar-right .dropdown-lang .dropdown-menu {
-      background-color: #F4E7D7 !important;
-      min-width: 100px; }
-      .navbar-right .dropdown-lang .dropdown-menu a {
-        color: #36384c;
-        padding: 1px 15px 1px 42px; }
-      .navbar-right .dropdown-lang .dropdown-menu a:hover {
-        background-color: #e9dccd; }
-
 .lowerheader {
   background-image: linear-gradient(to right, #F4E7D7, #300016);
   display: flex;
@@ -944,3 +898,40 @@ h1 {
     display: none; }
     #accordeon .faq-answer p {
       margin: 1.5rem 2rem; }
+
+.newheader {
+  height: 70px;
+  background-color: #300016;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .newheader .logo-wrap img {
+    height: 70px; }
+  .newheader .nav {
+    display: flex;
+    align-items: center; }
+    .newheader .nav .nav-item {
+      list-style-type: none;
+      display: inline-block; }
+      .newheader .nav .nav-item a {
+        padding: 1.2rem 1rem;
+        color: #F4E7D7;
+        font-family: "Rubik";
+        font-size: 18px;
+        font-weight: 300; }
+  .newheader .navbar-sign-list {
+    display: flex;
+    align-items: center; }
+    .newheader .navbar-sign-list li {
+      display: inline-block;
+      padding: 1.2rem 0.1rem; }
+  .newheader .navbar-sign-item {
+    display: inline-block;
+    background-color: #F4E7D7;
+    height: 35px;
+    color: #300016;
+    padding: .6em 1em;
+    border-radius: .7em; }
+  .newheader .navbar-sign-item:hover {
+    background-color: #300016;
+    color: #F4E7D7; }

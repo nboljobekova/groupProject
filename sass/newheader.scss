@@ -1,0 +1,49 @@
+.newheader {
+    height: 70px;
+    background-color: $violet-wine;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    .logo-wrap {
+        img {
+        height: 70px; 
+    }
+    } 
+    .nav {
+        display: flex;
+        align-items: center;
+        .nav-item {
+            list-style-type: none;
+            display: inline-block;
+        a {
+            padding: 1.2rem 1rem;
+            color: $cream;
+            font-family: $font;
+            font-size: 18px;
+            font-weight: 300;
+            }
+        }
+    }
+    .navbar-sign-list {
+        display: flex;
+        align-items: center;
+        li {
+        display: inline-block;
+        padding: 1.2rem 0.1rem;
+        }   
+    }    
+    .navbar-sign-item {
+        display: inline-block;
+        background-color: $cream;
+        height: 35px;
+        color: $violet-wine;
+        padding: .6em 1em;
+        border-radius: .7em;
+       
+    }
+    
+    .navbar-sign-item:hover {
+        background-color: $violet-wine;
+        color: $cream;
+    }
+}
