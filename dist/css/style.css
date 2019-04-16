@@ -957,7 +957,7 @@ h1 {
   flex-direction: column;
   background-color: #300016;
   color: #F4E7D7;
-  padding: 5em 0; }
+  padding: 5.3em 0; }
 
 .salon_block {
   display: flex;
@@ -1007,18 +1007,19 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .admin_service_cards .service_card {
-    width: 32%;
-    padding: 0.5em;
-    margin: 1em 0;
-    box-sizing: border-box;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 5px -5px 10px 0px rgba(44, 44, 44, 0.205); }
+
+.service_card {
+  width: 32%;
+  padding: 0.5em;
+  margin: 1em 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px -5px 10px 0px rgba(44, 44, 44, 0.205); }
 
 .service_logo {
-  height: 70%;
+  height: 75%;
   text-align: center; }
   .service_logo img {
     width: 90%; }
@@ -1027,13 +1028,11 @@ h1 {
   margin: 1em 0; }
 
 .service_info {
-  padding: 1em 0;
+  padding-bottom: 1em;
   border-top: 1px solid #c8c8c8;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
-  .service_info h2 {
-    font-weight: 600; }
   .service_info .left_block h2 {
     font-weight: 600;
     text-align: left; }
@@ -1068,7 +1067,20 @@ h1 {
     justify-content: center;
     color: #F4E7D7; }
     .service_card.add .service_info.add p {
-      text-align: center; }
+      text-align: center;
+      margin-top: 1.5em; }
 
-.service_card_add:hover {
+.service_card.add:hover {
   cursor: pointer; }
+
+@media screen and (max-width: 992px) {
+  .service_card {
+    width: 48%; } }
+
+@media screen and (max-width: 768px) {
+  .service_card {
+    width: 75%; } }
+
+@media screen and (max-width: 576px) {
+  .service_card {
+    width: 90%; } }
