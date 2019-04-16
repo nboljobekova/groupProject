@@ -30,21 +30,22 @@
         margin-left: 30px;
         li {
         display: inline-block;
-        padding: 1.2rem 0.1rem;
+        padding: 0.7rem 0.1rem;
         }   
-    }    
+    }
+    
     .navbar-sign-item {
         display: inline-block;
-        background-color: $cream;
         height: 35px;
-        color: $violet-wine;
+        color: $cream;
+        margin-top: 0.3em;
         padding: .6em 1em;
-        border-radius: .7em;
-       
+        border-radius:1em;
+        box-shadow: 0px 2px 3px #593244;  
     }
     
     .navbar-sign-item:hover {
-        background-color: $violet-wine;
-        color: $cream;
+        background-color: $cream;
+        color: $violet-wine;
     }
 }
