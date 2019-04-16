@@ -384,7 +384,8 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
 
 p {
   margin-top: 0;
@@ -942,3 +943,132 @@ h1 {
     background-position: center;
     background-size: cover;
     opacity: 0.5; }
+
+.admin {
+  background-color: #F4E7D7;
+  height: 100%; }
+
+.admin_block {
+  display: flex;
+  flex-direction: row; }
+
+.admin_sidebar_block {
+  display: flex;
+  flex-direction: column;
+  background-color: #300016;
+  color: #F4E7D7;
+  padding: 5em 0; }
+
+.salon_block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em; }
+  .salon_block .salon_img {
+    align-content: center;
+    text-align: center; }
+    .salon_block .salon_img img {
+      width: 100%; }
+  .salon_block .salon_title {
+    text-align: center;
+    justify-content: center;
+    padding: 1em 0; }
+
+.menu_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .menu_block .admin_navbar {
+    width: 100%; }
+  .menu_block .admin_navbar_links {
+    border-radius: 3px;
+    border-bottom: 1px solid #F4E7D7;
+    box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.075); }
+  .menu_block a {
+    padding: 1.2rem 1rem;
+    color: #F4E7D7;
+    font-size: 1.2em;
+    text-align: center;
+    display: block; }
+  .menu_block a:hover {
+    background-color: #F4E7D7;
+    color: #300016; }
+
+.admin_service_block .admin_masters_block {
+  display: flex;
+  height: 100%;
+  width: 100%; }
+
+.admin_service_block h2 {
+  margin-top: 1em; }
+
+.admin_service_cards {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .admin_service_cards .service_card {
+    width: 32%;
+    padding: 0.5em;
+    margin: 1em 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px -5px 10px 0px rgba(44, 44, 44, 0.205); }
+
+.service_logo {
+  height: 70%;
+  text-align: center; }
+  .service_logo img {
+    width: 90%; }
+
+.service_title {
+  margin: 1em 0; }
+
+.service_info {
+  padding: 1em 0;
+  border-top: 1px solid #c8c8c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .service_info h2 {
+    font-weight: 600; }
+  .service_info .left_block h2 {
+    font-weight: 600;
+    text-align: left; }
+  .service_info .right_block h2 {
+    font-weight: 600;
+    text-align: right; }
+
+.service_card.add {
+  padding: 0.5em;
+  margin: 1em 0;
+  background-color: #300016;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px -5px 10px 0px rgba(44, 44, 44, 0.205); }
+  .service_card.add .service_logo.add {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .service_card.add .service_logo.add .box {
+      width: 50%;
+      height: 50%;
+      background-color: #F4E7D7;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .service_card.add .service_logo.add .box span {
+        text-align: center;
+        font-size: 5em; }
+  .service_card.add .service_info.add {
+    display: flex;
+    justify-content: center;
+    color: #F4E7D7; }
+    .service_card.add .service_info.add p {
+      text-align: center; }
+
+.service_card_add:hover {
+  cursor: pointer; }
