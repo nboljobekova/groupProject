@@ -1,0 +1,9 @@
+.info-content {
+    background-color: $cream;
+    .info-content-main {
+        background-image: url(../images/info-page.jpg);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+    }
+}

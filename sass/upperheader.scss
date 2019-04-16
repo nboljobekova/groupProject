@@ -1,18 +1,16 @@
-header{
+header {
 	background-color: $cream;
 }
-.row {
-	height: 50px;
-	}
 .upperheader {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	height: 50px;
 }
-
 .navbar-sn-icons {
 	display: flex;
-	align-items: center;			
+	align-items: center;
+	margin-left: 50px;			
 	.navbar-sn-links {
 		list-style-type: none;			
 		.navbar-text {

@@ -5,8 +5,7 @@
     padding: 0;
     .row {
         display: flex;
-        flex-wrap: wrap;
-        height: auto;
+        flex-wrap: wrap;       
     }
     @for $i from 1 through $column_count {
         .col-#{$i} {

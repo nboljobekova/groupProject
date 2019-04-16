@@ -7,7 +7,7 @@ Login/Signup modal window
     align-items: center;
     li {
     display: inline-block;
-    padding: 0.7rem 0.1rem;
+    padding: 0.5rem 0.1rem;
     }   
 }
 
@@ -15,6 +15,7 @@ Login/Signup modal window
     display: inline-block;
     height: 35px;
     color: $violet-wine;
+    font-size: 16px;
     padding: .6em 1em;
     border-radius:1em;
     box-shadow: $base_box_shadow  
