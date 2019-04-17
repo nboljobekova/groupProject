@@ -7,14 +7,23 @@
         img {
         height: 50px; 
         width: 200px;
-    }
+    }   
     } 
+    #touch-menu {        
+        display: none;  
+    }
+
     .nav {
         display: flex;
-        align-items: center;
+        align-items: center;       
         .nav-item {
             list-style-type: none;
             display: inline-block;
+            :hover{
+                background-color: $cream;
+                color: $violet-wine;
+                border-radius: 5px;
+            }
         a {
             padding: 1.2rem 1rem;
             color: $cream;
@@ -24,4 +33,27 @@
             }
         }
     }
+    @media only screen and (max-width: 600px) {
+        .logo-wrap {
+            img {
+                height: 50px; 
+                width: 150px;
+            }
+        }
+        .nav {
+            display: none;
+        }
+        #touch-menu {
+            display: block;
+            color: $cream;
+            font-weight: 300;
+            padding-top: 1rem;
+            padding-right: 1rem;
+            :hover{
+                cursor: pointer;
+            }     
+
+        }
+       
+}
 }

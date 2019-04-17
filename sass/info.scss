@@ -1,9 +1,39 @@
 .info-content {
     background-color: $cream;
     .info-content-main {
-        background-image: url(../images/info-page.jpg);
+        background-image: url(../images/info-page1.jpg);
         background-position: center;
-        background-size: cover;
-        opacity: 0.5;
-    }
-}
+        background-size: cover;       
+        padding: 1rem 2rem;
+        .info-message{
+            display: flex;
+            align-items: center;
+            justify-content: center;              
+            }
+        .display2 {
+            text-align: center;
+            color: $violet-wine;
+            font-weight: 600;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem; 
+            padding-left: 1rem;          
+        }
+        .text-title { 
+            padding-top: 1.5rem;            
+            text-align: justify;                     
+        }
+        .text-mini-title {            
+            text-align: left;
+            padding-top: 1.5rem;  
+            color: $violet-wine;
+            font-weight: 600; 
+        }
+        .ul{
+                line-height: 150%; 
+            }
+                       
+        }
+         
+                        
+ }
+

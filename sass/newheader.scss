@@ -7,6 +7,9 @@
         img {
         height: 70px; 
     }
+    #touch-menu {
+        display: none;
+    }
     } 
     .nav {
         display: flex;
@@ -42,10 +45,27 @@
         padding: .6em 1em;
         border-radius:1em;
         box-shadow: 0px 2px 3px #593244;  
-    }
-    
+    }   
     .navbar-sign-item:hover {
         background-color: $cream;
         color: $violet-wine;
     }
+    @media only screen and (max-width: 600px) {
+        .logo-wrap {
+            img {
+                height: 50px; 
+                width: 150px;
+            }
+        }
+        .nav {
+            display: none;
+        }
+        #touch-menu {
+            display: block;
+            padding: 12px 15px;
+            font-weight: bold;
+            font-size: 16px;
+            color: $cream;           
+    }
+}
 }

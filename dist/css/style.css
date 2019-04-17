@@ -550,6 +550,19 @@ header {
       display: inline-block;
       padding: 0.7rem 0.5rem;
       color: #F4E7D7; }
+  @media only screen and (max-width: 600px) {
+    .navbar-sn-icons .navbar-sign-list {
+      max-width: 150px; }
+      .navbar-sn-icons .navbar-sign-list li {
+        display: inline-block;
+        padding: 0.5rem 0.1rem; }
+    .navbar-sn-icons .navbar-sign-item {
+      display: inline-block;
+      height: 25px;
+      color: #300016;
+      font-size: 12px;
+      padding: .6em 1em;
+      border-radius: 1em; } }
 
 .lowerheader {
   background-color: #300016;
@@ -559,18 +572,38 @@ header {
   .lowerheader .logo-wrap img {
     height: 50px;
     width: 200px; }
+  .lowerheader #touch-menu {
+    display: none; }
   .lowerheader .nav {
     display: flex;
     align-items: center; }
     .lowerheader .nav .nav-item {
       list-style-type: none;
       display: inline-block; }
+      .lowerheader .nav .nav-item :hover {
+        background-color: #F4E7D7;
+        color: #300016;
+        border-radius: 5px; }
       .lowerheader .nav .nav-item a {
         padding: 1.2rem 1rem;
         color: #F4E7D7;
         font-family: "Rubik";
         font-size: 18px;
         font-weight: 300; }
+  @media only screen and (max-width: 600px) {
+    .lowerheader .logo-wrap img {
+      height: 50px;
+      width: 150px; }
+    .lowerheader .nav {
+      display: none; }
+    .lowerheader #touch-menu {
+      display: block;
+      color: #F4E7D7;
+      font-weight: 300;
+      padding-top: 1rem;
+      padding-right: 1rem; }
+      .lowerheader #touch-menu :hover {
+        cursor: pointer; } }
 
 .footer {
   width: 100%;
@@ -910,6 +943,8 @@ h1 {
   background-color: #300016; }
   .newheader .logo-wrap img {
     height: 70px; }
+  .newheader .logo-wrap #touch-menu {
+    display: none; }
   .newheader .nav {
     display: flex;
     align-items: center;
@@ -941,14 +976,47 @@ h1 {
   .newheader .navbar-sign-item:hover {
     background-color: #F4E7D7;
     color: #300016; }
+  @media only screen and (max-width: 600px) {
+    .newheader .logo-wrap img {
+      height: 50px;
+      width: 150px; }
+    .newheader .nav {
+      display: none; }
+    .newheader #touch-menu {
+      display: block;
+      padding: 12px 15px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #F4E7D7; } }
 
 .info-content {
   background-color: #F4E7D7; }
   .info-content .info-content-main {
-    background-image: url(../images/info-page.jpg);
+    background-image: url(../images/info-page1.jpg);
     background-position: center;
     background-size: cover;
-    opacity: 0.5; }
+    padding: 1rem 2rem; }
+    .info-content .info-content-main .info-message {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .info-content .info-content-main .display2 {
+      text-align: center;
+      color: #300016;
+      font-weight: 600;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 1rem; }
+    .info-content .info-content-main .text-title {
+      padding-top: 1.5rem;
+      text-align: justify; }
+    .info-content .info-content-main .text-mini-title {
+      text-align: left;
+      padding-top: 1.5rem;
+      color: #300016;
+      font-weight: 600; }
+    .info-content .info-content-main .ul {
+      line-height: 150%; }
 
 .admin {
   background-color: #F4E7D7;
