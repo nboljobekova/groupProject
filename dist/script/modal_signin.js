@@ -31,14 +31,15 @@ btn_open_signin.onclick = function() {
 btn_submit_signin.onclick = function() {
   var signinEmailValue = document.getElementById("signin-email").value;
   var signinPasswordValue = document.getElementById("signin-password").value;
-  function record() {
+  (function() {
   data['email'] = signinEmailValue;
 	data['password'] = signinPasswordValue;
 	console.log(data);
-  };
-  record();
+  }());
+  // record();
 this.signinEmailValue = "";
 this.signinPasswordValue = "";
+document.location.href = "admin_masters.html";
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -78,13 +79,16 @@ btn_submit_signup.onclick = function() {
     data['password'] = signupPasswordValue;
     console.log(data);
     }());
-    document.getElementById("signup-username") = "";
-    document.getElementById("signup-address") = "";
-    document.getElementById("signup-phone") = "";
-    document.getElementById("signup-email") = "";
-    document.getElementById("signup-password") = "";
+    this.signupUsernameValue = "";
+    this.signupAddressValue = "";
+    this.signupPhoneValue = "";
+    this.signupDistrictValue = "";
+    this.signupEmailValue = "";
+    this.signupPasswordValue = "";
+    
 
     modal_signup.style.display = "none";
+    document.location.href = "admin_masters.html";
 
 }
 // When the user clicks on <span> (x), close the modal

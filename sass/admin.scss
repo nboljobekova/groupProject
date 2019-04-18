@@ -13,9 +13,15 @@
     flex-direction: column;
     background-color: $violet-wine;
     color: $cream;
-    padding: 5.3em 0;
-}
 
+}
+.admin_logo {
+    text-align: center;
+    padding: 0.55em 0;
+    img {
+        width: 50%;
+    }   
+}
 .salon_block {
     display: flex;
     flex-direction: column;

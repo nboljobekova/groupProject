@@ -1030,8 +1030,13 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: #300016;
-  color: #F4E7D7;
-  padding: 5.3em 0; }
+  color: #F4E7D7; }
+
+.admin_logo {
+  text-align: center;
+  padding: 0.55em 0; }
+  .admin_logo img {
+    width: 50%; }
 
 .salon_block {
   display: flex;
