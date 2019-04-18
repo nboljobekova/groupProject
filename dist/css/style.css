@@ -1159,3 +1159,7 @@ h1 {
 @media screen and (max-width: 576px) {
   .service_card {
     width: 90%; } }
+
+#out {
+  background-color: #e9dccd;
+  height: auto; }

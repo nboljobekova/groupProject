@@ -1,4 +1,4 @@
-var salons = {
+const salons = {
     filarr: [
         {title: 'Amalie Beauty Studio', address: "ул. Рыскулова, 79Б", phone: "+996 555–13–05–05"},
         {title: 'Profi Touch', address: "ул. Насирдина Исанова, 94", phone: "+996 550–99–97–67"},
@@ -16,37 +16,8 @@ var salons = {
         {title: "Jibsnails&Beauty", address: "Манаса проспект, 89", phone: "+996 778–22–23–19"},      
         {title: "BigBro barber shop", address: "Чуй проспект, 178", phone: "+996 709–58–58–88"},          
         {title: 'Керемет', address: "Чуй проспект, 170", phone: "+996 700–57–58–99"},
-    ]
-}
-
-var district = "filarr"
-function renderSalons(){
-    var selected_salons = salons[district]
-    /// Сформировать и добавить html на страницу
-}
-
-
-var filarr =
-    [
-        {title: 'Amalie Beauty Studio', address: "ул. Рыскулова, 79Б", phone: "+996 555–13–05–05"},
-        {title: 'Profi Touch', address: "ул. Насирдина Исанова, 94", phone: "+996 550–99–97–67"},
-        {title: "Zarin Style", address: "Манаса проспект, 34", phone: "+996 709–87–11–60"},
-        {title: 'Маникюрный салон "Tomiris Nail Studio"', address: "ул. Киевская, 153", phone: "+996 554–814–884"},
-        {title: "Mystic Spa (Health & Beauty)", address: "Чуй проспект, 219", phone: "+996 555–45–44–33"},
-        {title: "FS Studio", address: "ул. Панфилова, 188/2", phone: "+996 555–74–23–30"},
-        {title: "Анталия 3", address: "Чуй проспект, 150", phone: "+996 777 283 110"},
-        {title: "La Letti", address: "пр. Чуй 150а перес. ул. Исанова, ТЦ Бета Сторес 1, этаж 2", phone: "+996 773 788 451"},
-        {title: "Istanbul", address: "ул. Киевская, 133", phone: "+996 700–41–41–46"},
-        {title: "Grace", address: "ул. Киевская, 135", phone: "+996 559–90–03–40"},        
-        {title: "Алтынай", address: "Манаса проспект, 47", phone: "+996 (312) 31–31–51"},
-        {title: "VERRA Beauty Bar", address: "ул. Токтогула, 161", phone: "+996 555–10–51–08"},       
-        {title: "Lash House Beauty", address: "ул. Абдымомунова, 259", phone: "+996 707 145 555"},
-        {title: "Jibsnails&Beauty", address: "Манаса проспект, 89", phone: "+996 778–22–23–19"},      
-        {title: "BigBro barber shop", address: "Чуй проспект, 178", phone: "+996 709–58–58–88"},          
-        {title: 'Керемет', address: "Чуй проспект, 170", phone: "+996 700–57–58–99"},
-];
-var zum=(
-[
+    ],
+    zum: [
     {title: "Lisap Milano", address: "ул. Токтогула, 87", phone: "+996 554–28–02–79"}, 
     {title: "GoldWell", address: "ул. Жумабек, 123", phone: "+996 555–05–35–55"},    
     {title: 'Салон красоты "Prestige"', address: "ул. Киевская, 93", phone: "+996 (312) 62–31–31"},
@@ -84,9 +55,8 @@ var zum=(
     {title: 'Lebel', address: "", phone: ""},
     {title: 'Кыз Жибек', address: "", phone: ""},
     {title: 'Selective Professional', address: "", phone: ""},
-]),
-var vost=(
-[
+    ],
+    vost: [
     {title: "BigBro barber shop", address: "Чуй проспект, 50", phone: "+996 709–58–88–58"}, 
     {title: 'Samira', address: "Чуй проспект, 119", phone: "+996 559–39–39–54"},
     {title: 'Lashmaker.kg', address: "", phone: ""},
@@ -108,9 +78,8 @@ var vost=(
     {title: 'Парикмахерская "Александра"', address: "Мусы Джалиля, 166", phone: "+996 708–15–10–94"},
     {title: 'Салон красоты "Амелия"', address: "Аламедин-1 микрорайон, 51а", phone: "+996 500–99–69–60"},
     {title: 'Парикмахерская "Сулуу"', address: "ул. Мусы Джалиля, 140", phone: "+996 709‒78‒11‒19"},
-]),
-var yug =(
-[
+],
+    yug: [
     {title: 'Каприз', address: "ул. Максима Горького, 81а", phone: "+996 555–12–06–03"},
     {title: 'Царевна', address: "", phone: ""},
     {title: 'Malina.kg', address: "", phone: ""},
@@ -130,9 +99,8 @@ var yug =(
     {title: 'Карэ Классик', address: "", phone: ""},
     {title: 'Студия перманентного макияжа Каныкей Кадырбаевой', address: "", phone: ""},
     {title: "Bigudini", address: "ул. Касыма Тыныстанова, 38", phone: "+996 555–31–26–70"},
-]),
-var medakadem =
-[ 
+],
+    medakadem: [ 
     {title: 'Belle', address: "", phone: ""},
     {title: 'Beauty9 Nine', address: "", phone: ""},
     {title: 'Michelle', address: "", phone: ""},
@@ -144,11 +112,9 @@ var medakadem =
     {title: 'ОН И ОНА', address: "", phone: ""},
     {title: 'DIORA', address: "", phone: ""},
     {title: 'Viola', address: "", phone: ""},
-    {title: 'Салон красоты "Lash studio Karagat"', address: "Касыма Тыныстанова, 14", phone: "+996 505–50–31–66"},
-    
+    {title: 'Салон красоты "Lash studio Karagat"', address: "Касыма Тыныстанова, 14", phone: "+996 505–50–31–66"},    
 ],
-var manas_gork =
-[
+    manas_gork: [
     {title: 'Эстетик Арт Студия', address: "", phone: ""},
     {title: 'Контур', address: "", phone: ""},
     {title: 'Фиори', address: "", phone: ""},
@@ -159,8 +125,7 @@ var manas_gork =
     {title: 'Nail.kg', address: "", phone: ""},
     {title: 'Elen style', address: "ул. Керимбекова, 13", phone: "+996 (312) 31–90–90"},
 ],
-var politekh =
-[
+    politekh: [
     {title: 'La Letty студия эпиляции', address: "", phone: ""},
     {title: 'Геральдина', address: "", phone: ""},
     {title: 'Комильфо', address: "", phone: ""},
@@ -173,16 +138,14 @@ var politekh =
     {title: 'Donna', address: "", phone: ""},
     {title: 'Мишель', address: "", phone: ""},
 ],
-var djal =
-[
+ djal: [
     {title: 'Ак Куу', address: "", phone: ""},
     {title: 'DATKA Style', address: "", phone: ""},
     {title: 'Нарзан', address: "", phone: ""},
     {title: 'Нур', address: "", phone: ""},
     {title: "Милена", address: "Ак-Ордо ж/м, Барсбек, 1/108", phone: ""},
 ],
-var mkrn3 =
-[
+    mkrn3: [
     {title: 'УСЛУГИ И КУРСЫ ВИЗАЖИСТА В БИШКЕКЕ', address: "", phone: ""},
     {title: 'Территория Красоты', address: "", phone: ""},
     {title: 'Nail Service Master - Alina', address: "", phone: ""},
@@ -192,29 +155,25 @@ var mkrn3 =
     {title: 'Ideal', address: "", phone: ""},
     {title: 'Салон красоты "VIP"', address: "3-й микрорайон, 28", phone: "+996 559–77–72–57"},
 ],
-var mkrn4 =
-[
+    mkrn4: [
     {title: 'Локон', address: "", phone: ""},
     {title: 'Mimi Nail', address: "", phone: ""},
     {title: 'Фея', address: "", phone: ""},
     {title: 'Идеал', address: "", phone: ""},
     {title: 'Nur Beauty Studio', address: "", phone: ""},
 ],
-var mkrn5 =
-[
+    mkrn5: [
     {title: '"Rocky" Barber shop', address: "", phone: ""},
     {title: '"Marshal" Barber shop', address: "", phone: ""},
     {title: 'Мария', address: "", phone: ""},
     {title: 'Мария', address: "", phone: ""},
     {title: 'Big eyes studio',  address: "5-м-н, ул. Юнусалиева, 160", phone: "+996 700–88–08–30"},
 ],
-var mkrn6 =
-[
+    mkrn6: [
     {title: 'Шико', address: "", phone: ""},
     {title: 'Орхидея', address: "", phone: ""},
 ],
-var mkrn7 =
-[
+    mkrn7: [
     {title: 'Анталия', address: "7 м-н, Beta Stores 2, Юнусалиева, 177/2", phone: "+996 505–02–31–02"}, 
     {title: 'EVVI Оранжерея красоты', address: "", phone: ""},
     {title: 'Gold Lady', address: "", phone: ""}, 
@@ -223,8 +182,7 @@ var mkrn7 =
     {title: 'Студия ногтевого сервиса "Nail Art Studio"', address: "", phone: ""},
     {title: 'Студия наращивания ресниц "Kai lash studio"', address: "Суеркулова, 20/20", phone: "+996 700–45–54–44"},
 ],
-var mkrn8 =
-[
+    mkrn8: [
     {title: 'Венеция', address: "", phone: ""},
     {title: 'Афродита', address: "", phone: ""},
     {title: 'Версаль', address: "", phone: ""},
@@ -233,35 +191,29 @@ var mkrn8 =
     {title: 'Адель', address: "", phone: ""},
     {title: 'Дом красоты "Жизель"', address: "ул. Токомбаева, 45/1", phone: "+996 552–999–555"},
 ],
-var mkrn9 =
-[
+    mkrn9: [
     {title: 'Элен', address: "9 м-н, Байтик Баатыра, 4/1", phone: "+996 551–22–36–80"},
     {title: 'Монэ', address: "", phone: ""},
     {title: 'Ginger Club', address: "", phone: ""},
 ],
-var mkrn10 =
-[
+    mkrn10: [
     {title: 'ДАРЬЯ', address: "", phone: ""},
     {title: 'Cалон красоты "Лакшми"', address: "10-й микрорайон, 10", phone: "+996 555–71–07–21"},
 ],
-var mkrn11 =
-[
+    mkrn11: [
     {title: 'ОдаЛюкс', address: "", phone: ""},
     {title: 'VOGUE', address: "", phone: ""},
     {title: 'KRUEGER', address: "", phone: ""},
     {title: '"Marshal" Barber shop', address: "", phone: ""},
 ],
-var mkrn12 =
-[
+    mkrn12: [
     {title: 'БЕРМЕТ', address: "", phone: ""},
 ],
-var asanbay =
-[
+    asanbay: [
     {title: 'Я', address: "", phone: ""},
     {title: 'Имидж-студия "Диадема"', address: "", phone: ""},
-],
-var osh =
-[
+],  
+    osh: [
     {title: "Мир Красоты", address: "ул. Уметалиева, 86", phone: "+996 559–51–51–61"}, 
     {title: ' Студия красоты "ANB"', address: "ул. Сыдыкова, 256/1", phone: "+996 755–48–40–56"}, 
     {title: "Велла", address: "ул. Краснознамённая, 44", phone: "+996 702–55–18–46"}, 
@@ -283,23 +235,39 @@ var osh =
     {title: 'Парикмахерская "Каныкей"', address: "Ала-Тоо, 47а", phone: "+996 779–15–80–58"},
     {title: 'VIP', address: "", phone: ""},
     {title: 'Парикмахерская "Сулуу"', address: "ул. Бейшеналиевой, 36/1 — 2 этаж", phone: "+996 708‒04‒59‒04"},
-]
+],
+}   
+const district = document.getElementById("district");
+const data_slot = document.getElementById("out");
 
-document.getElementById('district').onchange = function (displaySalonsOfDistrict)  {
-    //     var barbersSelected = var[0]
-    //     barbersSelect.options.length = 0;{
+const render_template = _.template (`
+    <ul>
+        <% salons.forEach(function(salon){ %>
+        <li><%= salon.title %> <%= salon.address %> <%= salon.phone %></li>
+        <% }); %>
+    </ul>
+    `);
 
+function renderSalons(salons){
+    data_slot.innerHTML = render_template({ salons })
 }
 
+district.addEventListener("change", (event) => {
+    renderSalons(salons[event.target.value])
+})
+renderSalons(salons.osh)
+
+//     var barbersSelected = var[0]
+//     barbersSelect.options.length = 0;{
 // document.getElementById('district').onchange = function(event) {
 //     var barbersSelect = document.getElementById('barbers');
 //     barbersSelect.options.length = 0;
-
 //     var selectedBarbers = arr[event.target.value];
-
 //     for (var i = 0; i < selectedBarbers.length; i++) {
 //         var opt = document.createElement('option');
 //         opt.innerHTML = selectedBarbers[i];
 //         barbersSelect.appendChild(opt);
 //     }
 // }
+
+  
