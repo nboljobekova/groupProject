@@ -244,7 +244,7 @@ const data_slot = document.getElementById("data");
 const render_template = _.template(`
   <ul>
     <% salons.forEach(function(salon){ %>
-      <li><%= salon.title %> <%= salon.address %></li>
+      <li><%="-" %> <%= salon.title %><%=";" %> <%="Адрес:" %> <%= salon.address %><%=";" %> <%="Контакты:" %> <%= salon.phone %> </li>
     <% }); %>
   </ul>
 `);
