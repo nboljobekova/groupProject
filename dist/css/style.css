@@ -448,15 +448,15 @@ svg {
     padding-bottom: 1rem; }
 
 .search-category {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: right;
   align-items: center; }
   .search-category .form {
-    width: 250px;
+    width: 300px;
     height: 30px; }
     .search-category .form select {
-      width: 200px;
+      width: 280px;
       height: 30px;
       border-radius: 5px;
       border: 1px solid #300016;
@@ -1166,10 +1166,17 @@ h1 {
     width: 90%; } }
 
 #data {
-  background-image: url(../images/select-page.jpg);
+  background-image: url(../images/bg-image-select.png);
   background-position: center;
   background-size: cover;
-  padding: 1rem 2rem;
   height: auto;
   margin-top: 20px;
-  font-weight: 500; }
+  font-weight: 500;
+  padding: 1rem 10rem;
+  line-height: 150%; }
+
+#map {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #F4E7D7; }

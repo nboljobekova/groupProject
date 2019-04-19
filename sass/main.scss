@@ -20,15 +20,15 @@
     }
 }
 .search-category{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: right;
     align-items: center;
-    .form {
-        width: 250px;
+    .form {        
+        width: 300px;
         height: 30px;  
         select{
-            width: 200px;
+            width: 280px;
             height: 30px; 
             border-radius: 5px;
             border: 1px solid $violet-wine; 

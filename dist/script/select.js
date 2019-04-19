@@ -78,27 +78,28 @@ const salons = {
         {title: 'Парикмахерская "Александра"', address: "Мусы Джалиля, 166", phone: "+996 708–15–10–94"},
         {title: 'Салон красоты "Амелия"', address: "Аламедин-1 микрорайон, 51а", phone: "+996 500–99–69–60"},
         {title: 'Парикмахерская "Сулуу"', address: "ул. Мусы Джалиля, 140", phone: "+996 709‒78‒11‒19"},
+        {title: 'Имидж студия "Евгении Николенко"', address: "Восток-5, Чуй проспект, 32", phone: "+996 555–46–40–04"},
 ],
     yug: [
-        {title: 'Каприз', address: "ул. Максима Горького, 81а", phone: "+996 555–12–06–03"},
-        {title: 'Царевна', address: "", phone: ""},
-        {title: 'Malina.kg', address: "", phone: ""},
-        {title: 'Сирена', address: "", phone: ""},
-        {title: 'Кристалл', address: "", phone: ""},
-        {title: 'Мадам', address: "", phone: ""},
-        {title: 'Империя Стиля', address: "", phone: ""},
-        {title: 'Бэлл', address: "", phone: ""},
-        {title: 'Чародейка', address: "", phone: ""},
-        {title: 'Vip lashes', address: "", phone: ""},
-        {title: 'Lovely Mama', address: "", phone: ""},
-        {title: 'SUJI', address: "", phone: ""},
-        {title: 'Гармония', address: "", phone: ""},
-        {title: 'Grimerka', address: "", phone: ""},
-        {title: 'Эллада', address: "", phone: ""},
-        {title: 'Mary Reys', address: "", phone: ""},
-        {title: 'Карэ Классик', address: "", phone: ""},
+        {title: 'Салон красоты "Каприз"', address: "ул. Максима Горького, 81а", phone: "+996 555–12–06–03"},
+        {title: 'Салон красоты "Царевнa"', address: "Юг-2 микрорайон, 22", phone: "+996 700–52–25–75"},
+        {title: 'Студия красоты "Malina.kg"', address: "ул. Орозбекова, 2/2", phone: "+996 555–00–30–71"},
+        {title: 'Салон красоты "Сирена"', address: "ул. Усенбаева, 24", phone: "+996 (312) 38–65–65"},
+        {title: 'Женская студия красоты и фитнеса  "Crystal"', address: "ул. Линейная, 67", phone: "+996 (312) 30‒20‒36"},
+        {title: 'Салон красоты "Мадам"', address: "ул. Льва Толстого, 2г", phone: "+996 553–59–39–39"},
+        {title: 'Салон красоты "Империя Стиля"', address: "ул. Байтик Баатыра, 57", phone: "+996 500–04–49–66"},
+        {title: 'Салон красоты "Бэлл"', address: "ул. Байтик Баатыра, 3/2", phone: "+996 550–59–50–36"},
+        {title: 'Салон красоты "Чародейка-Lebelle"', address: "ул. Скрябина, 37", phone: "+996 772–26–38–23"},
+        {title: 'Студия "Vip lashes"', address: "ул. Байтик Баатыра, 37", phone: "+996 555–57–73–33"},
+        {title: 'Салон красоты "Lovely Mama"', address: "", phone: ""},
+        {title: 'Салон красоты "SUJI"', address: "", phone: ""},
+        {title: 'Салон красоты "Гармония"', address: "", phone: ""},
+        {title: 'Салон красоты "Grimerka"', address: "", phone: ""},
+        {title: 'Салон красоты "Эллада"', address: "", phone: ""},
+        {title: 'Салон красоты "Mary Reys"', address: "", phone: ""},
+        {title: 'Салон красоты "Карэ Классик"', address: "", phone: ""},
         {title: 'Студия перманентного макияжа Каныкей Кадырбаевой', address: "", phone: ""},
-        {title: "Bigudini", address: "ул. Касыма Тыныстанова, 38", phone: "+996 555–31–26–70"},
+        {title: 'Салон красоты "Bigudini"', address: "ул. Касыма Тыныстанова, 38", phone: "+996 555–31–26–70"},
     ],
     medakadem: [ 
         {title: 'Belle', address: "", phone: ""},
@@ -210,7 +211,7 @@ const salons = {
         {title: 'БЕРМЕТ', address: "", phone: ""},
 ],
     asanbay: [
-    {title: 'Я', address: "", phone: ""},
+    {title: 'Салон красоты "Я"', address: "Асанбай микрорайон, 15а", phone: "+996 556–31–33–50"},
     {title: 'Имидж-студия "Диадема"', address: "", phone: ""},
 ],  
     osh: [
@@ -242,7 +243,11 @@ const selector = document.getElementById("selector");
 const data_slot = document.getElementById("data");
 
 const render_template = _.template(`
-  <ul>
+    <h2>
+        <%="Список салонов красоты по выбранному Вами району:" %>
+    </h2>
+    <br>
+    <ul>
     <% salons.forEach(function(salon){ %>
       <li><%="-" %> <%= salon.title %><%=";" %> <%="Адрес:" %> <%= salon.address %><%=";" %> <%="Контакты:" %> <%= salon.phone %> </li>
     <% }); %>
