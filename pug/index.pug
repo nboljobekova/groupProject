@@ -25,15 +25,14 @@ html(lang="en")
                     h2.display2 Теперь, записаться в салоны красоты стало еще проще!
                 .search-category
                     .form
-                        select#selector(name="propertyType")
-                            option(value="") Район
+                        select#selector(name="propertyType")                            
                             option(value="fillar") Филармония
                             option(value="zum") ЦУМ
                             option(value="vost") Восток -5, ТЭЦ, Аламедин -1
                             option(value="yug") Юг-2
                             option(value="medakadem") Медакадемия
-                            option(value="manas_gorh") пр.Манаса до Горького 
-                            option(value="politech") Госрегистр, ШВК, Политех
+                            option(value="manas_gork") пр.Манаса до Горького 
+                            option(value="politekh") Госрегистр, ШВК, Политех
                             option(value="djal") Джал
                             option(value="mkrn3") 3 мкр
                             option(value="mkrn4") 4 мкр
@@ -69,9 +68,5 @@ html(lang="en")
                                 .text_block
                                     h3 Обновляемая информация о салонах
                                     p Регулярно обновляемая информация о салонах
-                button#to-top       
-
-        script(src="../script/totop.js")
-        script(src="../script/select.js") 
-        script(src="../script/header.js")                                  
+                button#to-top                 
         include includes/footer.pug

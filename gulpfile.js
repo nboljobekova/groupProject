@@ -4,9 +4,9 @@ var sass = require ("gulp-sass");
 
 gulp.task("pug", function() {
     return gulp
-    .src("./pug/*.pug")
-    .pipe(pug())
-    .pipe(gulp.dest("./dist/html"));
+        .src("./pug/*.pug")
+        .pipe(pug())
+        .pipe(gulp.dest("./dist/html"));
 });
 
 gulp.task("pug:watch", function() {
@@ -15,9 +15,9 @@ gulp.task("pug:watch", function() {
 
 gulp.task("sass", function() {
     return gulp
-    .src("./sass/style.scss")
-    .pipe(sass())
-    .pipe(gulp.dest("./dist/css"));
+        .src("./sass/style.scss")
+        .pipe(sass())
+        .pipe(gulp.dest("./dist/css"));
 });
 
 gulp.task("sass:watch", function() {
