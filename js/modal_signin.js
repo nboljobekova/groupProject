@@ -102,9 +102,4 @@ window.onclick = function(event) {
     }
 };
 
-export default modal_signin;
-
-
-// Problems:
-// Signin modal:
-// 1. window.onclick isn"t working
+// export default modal_signin;

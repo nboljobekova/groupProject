@@ -5,3 +5,4 @@ import totop from "./totop.js";
 import modal_reg from "./modal_reg.js";
 import accordeon from "./accordeon.js";
 import map from "./map.js";
+

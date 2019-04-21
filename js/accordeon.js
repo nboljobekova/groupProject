@@ -11,4 +11,4 @@ for (var i = 0; i < title.length; i++) {
     });
 }
 
-export default accordeon;
+// export default accordeon;

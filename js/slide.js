@@ -8,4 +8,4 @@ setInterval(function() {
         .end()
         .appendTo("#slideshow");
 }, 3000);
-export default slide;
+// export default slide;
