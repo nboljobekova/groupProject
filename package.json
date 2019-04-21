@@ -4,7 +4,8 @@
   "description": "group project",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "compile": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

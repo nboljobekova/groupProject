@@ -821,6 +821,130 @@ x signin/signup
   .modal-signin-input[type=submit] {
     padding: 12px 0; } }
 
+/* -------------------------------- 
+/Service registration modal window
+-------------------------------- */
+.modal_reg {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 150;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Black w/ opacity */ }
+
+.close_reg {
+  color: #aaaaaa;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.close_reg:hover,
+.close_reg:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.modal-content_reg {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 0.25em;
+  width: 50%;
+  transform: translateY(-45px);
+  transition: transform 0.3s; }
+
+.modal_form_reg {
+  padding-top: 1em; }
+
+.modal-reg-fieldset {
+  position: relative;
+  margin: 1.2em 0; }
+
+.modal-reg-fieldset:first-child {
+  margin-top: 0; }
+
+.modal-reg-fieldset:last-child {
+  margin-bottom: 0; }
+
+.modal-reg-label-image {
+  /* replace text with an icon */
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px; }
+
+.modal-reg-label--username {
+  background-image: url("../icons/modal-icon-username.svg"); }
+
+.modal-reg-label--email {
+  background-image: url("../icons/modal-icon-email.svg"); }
+
+.modal-reg-label--password {
+  background-image: url("../icons/modal-icon-password.svg"); }
+
+.modal-reg-label--address {
+  background-image: url("../icons/modal-icon-home.svg"); }
+
+.modal-reg-label--phone {
+  background-image: url("../icons/modal-icon-phone.svg"); }
+
+.modal-reg-label--location {
+  background-image: url("../icons/modal-icon-location.svg"); }
+
+.modal-reg-input {
+  margin: 0;
+  padding: 0;
+  border-radius: 0.25em;
+  width: 100%;
+  padding: 12px 20px 12px 50px;
+  border: 1px solid #d2d8d8; }
+
+.modal-reg-btn {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.25em;
+  border: 1px solid #d2d8d8;
+  padding: 12px 20px 12px 50px;
+  cursor: pointer;
+  background: #300016;
+  color: #F4E7D7;
+  font-weight: bold;
+  text-align: center; }
+
+.modal-reg-btn:hover, .modal-reg-btn:focus {
+  background: #63002d;
+  outline: none;
+  color: #F4E7D7; }
+
+@media only screen and (min-width: 600px) {
+  .modal_form_reg {
+    padding: 1,5em; }
+  .modal-reg-fieldset {
+    margin: 1,5em 0; }
+  .modal-reg-fieldset:first-child {
+    margin-top: 0; }
+  .modal-reg-fieldset:last-child {
+    margin-bottom: 0; }
+  .modal-reg-input.modal-reg-input--has-padding {
+    padding: 8px 20px 8px 50px; }
+  .modal-reg-input[type=submit] {
+    padding: 12px 0; } }
+
 #to-top {
   position: fixed;
   bottom: 160px;

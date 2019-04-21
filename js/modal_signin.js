@@ -106,9 +106,3 @@ window.onclick = function(event) {
 // Problems:
 // Signin modal:
 // 1. window.onclick isn"t working
-// 2. btn.onclick doesn"t refresh input areas (="") and close modal
-
-// Signup modal:
-// 1. btn.onclick doesn"t refresh input areas (="") and close modal
-
-
