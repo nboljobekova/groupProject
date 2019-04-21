@@ -24,65 +24,66 @@ var span5 = document.getElementsByClassName("close_reg")[4];
 
 // When the user clicks the button, open the modal
 btn_reg_open.onclick = function() {
-	modal_reg_1.style.display = "block";
-	modal_reg_2.style.display = "none";
+    modal_reg_1.style.display = "block";
+    modal_reg_2.style.display = "none";
 };
 btn_reg_1.onclick = function() {
-	modal_reg_1.style.display = "none";
-	modal_reg_2.style.display = "block";
+    modal_reg_1.style.display = "none";
+    modal_reg_2.style.display = "block";
 };
 btn_reg_2.onclick = function() {
-	modal_reg_2.style.display = "none";
-	modal_reg_3.style.display = "block";
+    modal_reg_2.style.display = "none";
+    modal_reg_3.style.display = "block";
 };
 btn_reg_3.onclick = function() {
-	modal_reg_3.style.display = "none";
-	modal_reg_4.style.display = "block";
+    modal_reg_3.style.display = "none";
+    modal_reg_4.style.display = "block";
 };
 btn_reg_4.onclick = function() {
-	modal_reg_4.style.display = "none";
-  modal5.style.display = "block";
+    modal_reg_4.style.display = "none";
+    modal5.style.display = "block";
 };
 
 // When the user clicks on <span> (x), close the modal
 span1.onclick = function() {
-	modal_reg_1.style.display = "none";
+    modal_reg_1.style.display = "none";
 };
 span2.onclick = function() {
-	modal_reg_2.style.display = "none";
-}
+    modal_reg_2.style.display = "none";
+};
 span3.onclick = function() {
-	modal_reg_4.style.display = "none";
-}
+    modal_reg_4.style.display = "none";
+};
 span4.onclick = function() {
-	modal_reg_4.style.display = "none";
-}
+    modal_reg_4.style.display = "none";
+};
 // span5.onclick = function() {
 // 	modal2.style.display = "none";
 // }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-	if (event.target == modal_reg_1) {
-		modal_reg_1.style.display = "none";
-		modal_reg_2.style.display = "none";
-	}
-	if (event.target == modal_reg_2) {
-		modal_reg_2.style.display = "none";
-		modal_reg_3.style.display = "none";
-	}
-	if (event.target == modal_reg_3) {
-		modal_reg_3.style.display = "none";
-		modal_reg_4.style.display = "none";
-	}
-	if (event.target == modal_reg_4) {
-		modal_reg_.style.display = "none";
-		modal_reg_5.style.display = "none";
-	}
-	if (event.target == modal_reg_5) {
-		modal_reg_5.style.display = "none";
-	}
+    if (event.target == modal_reg_1) {
+        modal_reg_1.style.display = "none";
+        modal_reg_2.style.display = "none";
+    }
+    if (event.target == modal_reg_2) {
+        modal_reg_2.style.display = "none";
+        modal_reg_3.style.display = "none";
+    }
+    if (event.target == modal_reg_3) {
+        modal_reg_3.style.display = "none";
+        modal_reg_4.style.display = "none";
+    }
+    if (event.target == modal_reg_4) {
+        modal_reg_.style.display = "none";
+        modal_reg_5.style.display = "none";
+    }
+    if (event.target == modal_reg_5) {
+        modal_reg_5.style.display = "none";
+    }
 };
+export default modal_reg;
 
 
 // //Old js

@@ -102,6 +102,8 @@ window.onclick = function(event) {
     }
 };
 
+export default modal_signin;
+
 
 // Problems:
 // Signin modal:

@@ -264,17 +264,5 @@ selector.addEventListener("change", (event) => {
 });
 renderSalons(salons.osh);
 
-//     var barbersSelected = var[0]
-//     barbersSelect.options.length = 0;{
-// document.getElementById("district").onchange = function(event) {
-//     var barbersSelect = document.getElementById("barbers");
-//     barbersSelect.options.length = 0;
-//     var selectedBarbers = arr[event.target.value];
-//     for (var i = 0; i < selectedBarbers.length; i++) {
-//         var opt = document.createElement("option");
-//         opt.innerHTML = selectedBarbers[i];
-//         barbersSelect.appendChild(opt);
-//     }
-// }
-
+export default select;
   
