@@ -849,8 +849,7 @@ x signin/signup
   font-size: 1.5em;
   font-weight: bold; }
 
-.close_reg:hover,
-.close_reg:focus {
+.close_reg:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer; }
@@ -858,12 +857,19 @@ x signin/signup
 .modal-content_reg {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px;
   border: 1px solid #888;
   border-radius: 0.25em;
   width: 50%;
   transform: translateY(-45px);
   transition: transform 0.3s; }
+
+.modal_reg_header {
+  height: 15%;
+  background-image: url(../image/header-bgr.png); }
+  .modal_reg_header h2 {
+    display: block;
+    background-color: #F4E7D7; }
 
 .modal_form_reg {
   padding-top: 1em; }
@@ -889,12 +895,6 @@ x signin/signup
 
 .modal-reg-label--username {
   background-image: url("../icons/modal-icon-username.svg"); }
-
-.modal-reg-label--email {
-  background-image: url("../icons/modal-icon-email.svg"); }
-
-.modal-reg-label--password {
-  background-image: url("../icons/modal-icon-password.svg"); }
 
 .modal-reg-label--address {
   background-image: url("../icons/modal-icon-home.svg"); }
@@ -926,7 +926,7 @@ x signin/signup
   font-weight: bold;
   text-align: center; }
 
-.modal-reg-btn:hover, .modal-reg-btn:focus {
+.modal-reg-btn:hover {
   background: #63002d;
   outline: none;
   color: #F4E7D7; }
@@ -942,7 +942,7 @@ x signin/signup
     margin-bottom: 0; }
   .modal-reg-input.modal-reg-input--has-padding {
     padding: 8px 20px 8px 50px; }
-  .modal-reg-input[type=submit] {
+  .modal-reg-btn {
     padding: 12px 0; } }
 
 #to-top {
@@ -1304,3 +1304,79 @@ h1 {
   height: 800px;
   margin: 0 auto;
   background-color: #F4E7D7; }
+
+.card_sale {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 50px;
+  z-index: 0; }
+  .card_sale > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0; }
+  .card_sale .sale_footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 1,8;
+    color: #F4E7D7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 94%;
+    height: 40px;
+    position: absolute;
+    margin: 1px;
+    padding: 15px;
+    z-index: 1;
+    background-color: #272727;
+    top: 260px;
+    border-radius: 5px;
+    opacity: 0.8; }
+    .card_sale .sale_footer:hover {
+      color: #f760b3;
+      height: 70px;
+      top: 230px;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-timing-function: linear; }
+
+.badge-min {
+  position: relative; }
+  .badge-min:after {
+    content: "15%";
+    font-size: 20px;
+    color: #272727;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: silver;
+    padding: 0.75em;
+    border-radius: 50%;
+    opacity: 0.9;
+    transform: translateX(20%) translateY(30%); }
+  .badge-min:hover:after {
+    font-size: 25px;
+    transition: 1s; }
+
+.badge-max {
+  position: relative; }
+  .badge-max:after {
+    content: "30%";
+    font-size: 20px;
+    color: #272727;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: goldenrod;
+    padding: 0.75em;
+    border-radius: 50%;
+    opacity: 0.9;
+    transform: translateX(20%) translateY(30%); }
+  .badge-max:hover:after {
+    font-size: 25px;
+    transition: 1s; }
