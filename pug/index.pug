@@ -50,23 +50,30 @@ html(lang="en")
                 .advantages
                     h2 Наши преимущества
                     .main_block_advantages
-                        .md_block_advantages.first_block
-                            .block_wrap
-                                img(src="../icons/search.svg" alt="")
-                                .text_block
+                        .md_block_advantages.first_block 
+                            #card-front.card
+                                .icon
+                                    img(src="../icons/search.svg" alt="")
+                            #card-back.card
+                                .details
                                     h3 Удобный поиск салонов
                                     p Выбирайте удобные Вам район, время и услуги
-                        .md_block_advantages.second_block
-                            .block_wrap
-                                img.check(src="../icons/check.svg" alt="")
-                                .text_block
+                        .md_block_advantages.second_block 
+                            #card-front.card
+                                .icon
+                                    img(src="../icons/check.svg" alt="")
+                            #card-back.card
+                                .details
                                     h3 Реальные контакты
                                     p Действующие адреса и телефоны
-                        .md_block_advantages.third_block
-                            .block_wrap
-                                img(src="../icons/refresh.svg" alt="")
-                                .text_block
-                                    h3 Обновляемая информация о салонах
+                        .md_block_advantages.third_block 
+                            #card-front.card
+                                .icon
+                                    img(src="../icons/refresh.svg" alt="")
+                            #card-back.card
+                                .details
+                                    h3 Информация
                                     p Регулярно обновляемая информация о салонах
+                 
                 button#to-top                 
-        include includes/footer.pug
+        include includes/footer.pug 
