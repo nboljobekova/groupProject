@@ -9,7 +9,7 @@ window.onload = function(){
         if (scrolled > 0) {
             window.scrollTo(0, scrolled);
             scrolled = scrolled - 100;
-            timer = setTimeout(scrollToTop, 100);
+            timer = setTimeout(scrollToTop, 30);
         }
         else {
             clearTimeout(timer);

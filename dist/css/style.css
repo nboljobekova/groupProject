@@ -1040,6 +1040,21 @@ x signin/signup
   .modal-reg-btn {
     padding: 12px 0; } }
 
+.modal_reg_final_text {
+  font-style: italic;
+  padding-top: 15px;
+  margin-bottom: 14px; }
+  .modal_reg_final_text h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em; }
+  .modal_reg_final_text h3 {
+    font-size: 1.5em; }
+
+.modal_reg_final_img {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto; }
+
 #to-top {
   position: fixed;
   bottom: 160px;
@@ -1068,7 +1083,6 @@ x signin/signup
 
 h1 {
   font-style: italic;
-  margin-left: 300px;
   padding-top: 70px;
   margin-bottom: 30px;
   text-align: center; }

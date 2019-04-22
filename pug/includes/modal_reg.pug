@@ -1,81 +1,3 @@
-//- #myModal_reg.modal_reg
-//-   .modal-content_reg
-//-     span_reg.close_reg x
-//-     form.modal_form_reg
-//-         .step#step1
-//-             h2 Пожалуйста выберите услугу
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--haircut Стрижка
-//-                 input.modal-reg-input#reg-haircut(type="radio", name="reg", value="haircut", checked)
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--hairdye Покраска
-//-                 input.modal-reg-input#reg-hairdye(type="radio", name="reg", value="hairdye") 
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--manicure Маникюр
-//-                 input.modal-reg-input#reg-manicure(type="radio", name="reg", value="manicure")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup Визаж
-//-                 input.modal-reg-input#reg-makeup(type="radio", name="reg", value="haircut")
-//-             p.modal-reg-fieldset
-//-                 a.modal-reg-btn#modal-reg-btn( type="submit") Дальше
-//-         .step#step2
-//-             h2 Пожалуйста выберите мастера
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--haircut Юлия Богданова
-//-                 input.modal-master-input#reg-master(type="radio", name="reg", value="haircut", checked)
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--hairdye Андрей Левин
-//-                 input.modal-master-input#reg-master(type="radio", name="reg", value="hairdye")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--manicure Светлана Тарасюк 
-//-                 input.modal-master-input#reg-master(type="radio", name="reg", value="manicure")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup Настя Роднина
-//-                 input.modal-master-input#reg-master(type="radio", name="reg", value="haircut")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup Алина Салиева
-//-                 input.modal-master-input#reg-master(type="radio", name="reg", value="haircut")
-//-             p.modal-reg-fieldset
-//-                 a.modal-reg-btn#modal-reg-btn( type="submit") Дальше
-//-         .step#step3
-//-             h2 Пожалуйста выберите день и время
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--date Дата записи
-//-                 input.modal-master-input#reg-master(type="week", name="year_week")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup 10.00
-//-                 input.modal-master-input#reg-time(type="radio", name="time", value="12")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup 12.00
-//-                 input.modal-master-input#reg-time(type="radio", name="time", value="12")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup 14.00
-//-                 input.modal-master-input#reg-time(type="radio", name="time", value="12")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup 16.00
-//-                 input.modal-master-input#reg-time(type="radio", name="time", value="12")
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup 18.00
-//-                 input.modal-master-input#reg-time(type="radio", name="time", value="12")
-//-             p.modal-reg-fieldset
-//-                 a.modal-reg-btn#modal-reg-btn( type="submit") Дальше
-//-         .step#step4
-//-             h2 Пожалуйста заполните контактные данные
-//-             p.modal-signin-fieldset
-//-                 label.modal-signin-label-image.modal-signin-label--username
-//-                 input.modal-reg-input#reg-username(type="text", placeholder="Фамилия Имя", required)
-//-             p.modal-signin-fieldset
-//-                 label.modal-signin-label-image.modal-signin-label--phone
-//-                 input.modal-reg-input#reg-phone(type="tel" placeholder="Контактный телефон ( н: 0ххх хххххх)", maxlength="11", pattern="[0-9]{4} [0-9]{6}", required)
-//-             p.modal-reg-fieldset
-//-                 label.modal-reg-label-image.modal-reg-label--makeup
-//-                 textarea.modal-master-input#reg-time(rows="4",cols="50", placeholder="Комментарии")
-//-             p.modal-reg-fieldset
-//-                 a.modal-reg-btn#modal-reg-btn( type="submit") Дальше
-
-
-
-  
 #step1.modal_reg
     .modal-content_reg
         span_reg.close_reg x
@@ -132,7 +54,7 @@
                     p.data-text Дата записи
                     p.modal-reg-fieldset
                         label.modal-reg-label-image.modal-reg-label--calendar
-                        input.modal-reg-input#reg-week(type="week", name="year_week")
+                        input.modal-reg-input#reg-week(type="week", name="year_week", placeholder="День недели")
                 .reg_right_block
                     p.data-text Время записи
                     p.modal-reg-fieldset
@@ -175,17 +97,10 @@
 #step5.modal_reg
     .modal-content_reg
         span_reg.close_reg x
-        .modal_reg_header
-            h2 Пожалуйста заполните контактные данные
-        form.modal_form_reg
-            p.modal-reg-fieldset
-                label.modal-reg-label-image.modal-reg-label--username
-                input.modal-reg-input#reg-username(type="text", placeholder="Фамилия Имя", required)
-            p.modal-reg-fieldset
-                label.modal-reg-label-image.modal-reg-label--phone
-                input.modal-reg-input#reg-phone(type="tel" placeholder="Контактный телефон ( н: 0ххх хххххх)", maxlength="11", pattern="[0-9]{4} [0-9]{6}", required)
-            p.modal-reg-fieldset
-                label.modal-reg-label-image.modal-reg-label--comment
-                textarea.modal-reg-input#reg-comment(rows="5",cols="50", placeholder="Комментарии")
-            p.modal-reg-fieldset
-                a.modal-reg-btn#modal-reg-btn4( type="submit") Дальше
+        .modal_reg_final_text
+            h2 Поздравляем!
+            h3 Ваша запись на услугу произведена успешно
+        .modal_reg_final_img
+            img(src="../images/heart_beauty.png", alt="heart image")
+        p.modal-reg-fieldset
+            a.modal-reg-btn#modal-reg-btn5( type="submit") Выход
