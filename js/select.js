@@ -450,7 +450,7 @@ const salons = {
             address: "Асанбай микрорайон, 15а",
             phone: "+996 556–31–33–50"
         },
-        { title: "Имидж-студия Диадема", address: "", phone: "" }
+        { title: "Имидж-студия Диадема", address: "", phone: "+996 550 976 688" }
     ],
     osh: [
         {
@@ -468,21 +468,19 @@ const salons = {
             address: "ул. Краснознамённая, 44",
             phone: "+996 702–55–18–46"
         },
-        { title: "Зал Красоты Оксаны Ким", address: "", phone: "" },
-        { title: "SPA Territory", address: "", phone: "" },
-        { title: "Эстетик", address: "", phone: "" },
-        { title: "Hairmaster", address: "", phone: "" },
-        { title: "Madision Salon", address: "", phone: "" },
-        { title: "On studio", address: "", phone: "" },
-        { title: "Аруумед", address: "", phone: "" },
-        { title: "Айлин", address: "", phone: "" },
-        { title: "Кейко Студио", address: "", phone: "" },
-        { title: "Адам И Ева", address: "", phone: "" },
-        { title: "Real Stealth", address: "", phone: "" },
-        { title: "Nail studio Diamonds", address: "", phone: "" },
-        { title: "K-studio", address: "", phone: "" },
-        { title: "ГУЛИЗА Style", address: "", phone: "" },
-        { title: "Амели", address: "", phone: "" },
+        { title: "салон красоты Зал Красоты Оксаны Ким", address: "ул. Московская, 193", phone: "+996 700–93–47–70" },
+        { title: "SPA салон SPA Territory", address: "ул. Московская, 184", phone: "+996 (312) 31–79–83" },
+        { title: "салон красоты Madison Salon", address: "ул. Раззакова, 33/1", phone: "+996 556–15–55–56" },
+        { title: "студия красоты On studio", address: "ул. Московская, 189а", phone: "+996 555–11–41–12" },
+        { title: "салон красоты Аруумед", address: "ул. Московская, 191", phone: "+996 556–87–77–82" },
+        { title: "салон красоты Айлин", address: "ул. Московская, 195", phone: "+996 773–50–45–99" },
+        { title: "салон красоты Кейко Студио", address: "ул. Московская, 163", phone: "+996 558–85–34–56" },
+        { title: "салон красоты Адам и Ева", address: "ул. Московская, 217", phone: "+996 (312) 35–28–18" },
+        { title: "салон красоты Real Stealth", address: "ул. Калыка Акиева, 57", phone: "+996 500–70–09–00" },
+        { title: "студия дизайна Nail studio Diamonds", address: "ул. Шота Руставели, 46", phone: "+996 551–66–17–71" },
+        { title: "салон красоты K-studio", address: "ул. Токтогула, 226", phone: "+996 555–89–45–86" },
+        { title: "салон красоты ГУЛИЗА Style", address: "ул. Киевская, 250", phone: "+996 551–71–81–55" },
+        { title: "салон красоты Амели", address: "", phone: "" },
         {
             title: "Парикмахерская Каныкей",
             address: "Ала-Тоо, 47а",
