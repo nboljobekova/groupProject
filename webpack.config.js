@@ -8,5 +8,5 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist/script"),
         filename: "main.js"   
-    },    
+    }, 
 };
