@@ -497,7 +497,7 @@ const salons = {
     ]
 };
 
-// const selector = document.getElementById("selector");
+const selector = document.getElementById("selector");
 const data_slot = document.getElementById("data");
 
 const render_template = _.template(`
@@ -507,9 +507,9 @@ const render_template = _.template(`
     <br>
     <ul>
     <% salons.forEach(function(salon){ %>
-      <li><%="-" %> <%= salon.title %><%=";" %> <%="Адрес:" %> <%= salon.address %><%=";" %> <%="Контакты:" %> <%= salon.phone %> </li>
+    <li><%="-" %> <%= salon.title %><%=";" %> <%="Адрес:" %> <%= salon.address %><%=";" %> <%="Контакты:" %> <%= salon.phone %> </li>
     <% }); %>
-  </ul>
+</ul>
 `);
 
 function renderSalons(salons) {
@@ -521,4 +521,3 @@ selector.addEventListener("change", event => {
 });
 renderSalons(salons.osh);
 
-// export default select;

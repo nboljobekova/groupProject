@@ -496,8 +496,8 @@ svg {
       position: absolute;
       transform: translate(-50%, -50%);
       background-color: #F4E7D7;
-      width: 300px;
-      height: 150px; }
+      width: 350px;
+      height: 250px; }
       .advantages .main_block_advantages .md_block_advantages .card {
         position: fixed;
         width: 100%;
@@ -507,7 +507,7 @@ svg {
         box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.3);
         backface-visibility: hidden; }
       .advantages .main_block_advantages .md_block_advantages #card-front {
-        background: goldenrod;
+        background: #b23a48;
         z-index: 2; }
         .advantages .main_block_advantages .md_block_advantages #card-front .icon {
           transform-origin: 0 0;

@@ -72,8 +72,8 @@
             position: absolute;
             transform: translate(-50%, -50%);
             background-color: $cream;
-            width: 300px;
-            height: 150px;
+            width: 350px;
+            height: 250px;
             .card {
                 position: fixed;
                 width: 100%;
@@ -84,7 +84,7 @@
                 backface-visibility: hidden;
             }
             #card-front {
-                background: $gold;
+                background: $violet;
                 z-index: 2;
                 .icon {
                     transform-origin: 0 0;
