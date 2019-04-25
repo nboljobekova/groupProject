@@ -1,7 +1,12 @@
-var DG = require("2gis-maps");
+import DG from "2gis-maps";
 
-var map = DG.map("map", {
-    center: [54.98, 82.89],
-    zoom: 13
-});
+window.onload = function() {
+    if (!window.location.pathname.includes("map.html")) {
+        return null;
+    }
 
+    DG.map("map", {
+        center: [54.98, 82.89],
+        zoom: 13
+    });
+};
