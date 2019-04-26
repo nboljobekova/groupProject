@@ -2,68 +2,65 @@
     width: 100%;  
     height: auto;  
     margin: 0 auto;
-    background-color: $violet-wine;
+    background-color: $realgrey;
     padding-top: 25px;
 }
-    .block0{
-        display: flex;    
-        .block1{
-            width: calc(100%*0.3); 
-            height:120px;
-            border: 1px solid $violet-wine;                       
-            color: $cream;  
-            margin-left: 1rem; 
-            padding-left: 2rem;       
-            .partners-text {
-                color: $cream;
-                .partners-info {
-                    color: $cream;
-                    padding-top: 0.5rem;  
-                    a {
-                        list-style-type: none;
-                        color: $cream; 
-                                            
-                    }
-                }                      
-            }
-        }
-        .block2{
-            width: calc(100%*0.3); 
-            height:120px;
-            border: 1px solid $violet-wine;   
-            border-left-color: $cream;                    
-            color: $cream;  
-            margin-left: 1rem; 
-            padding-left: 2rem;       
-            .partners-text {
-                color: $cream;
-                .partners-info {
-                    color: $cream;
-                    padding-top: 0.5rem;  
-                    a {
-                        list-style-type: none;
-                        color: $cream; 
+.block0{
+    display: flex;    
+    .block1{
+        width: calc(100%/3); 
+        height:120px;                     
+        color: $creamy;        
+        .partners-text {
+            color: $creamy;
+            .partners-info {
+                color: $creamy;
+                padding-top: 0.5rem;  
+                a {
+                    list-style-type: none;
+                    color: $creamy; 
+                                        
+                }
+            }                      
         }
     }
-}
-        }
-        .block3{
-            width: calc(100%/3);           
-            border: 1px solid $violet-wine;
-            border-left-color: $cream;
-            display: flex;
-            flex-direction: column;
-            align-items: center;            
-            color: $cream;
-            .copyright-text {
-                color: $cream;
-            }
-            .copyright-img {
-                width: 20px;
-                height: 20px;
-                margin-left: 0.2rem;
-                margin-right: 0.2rem;
-                padding-bottom: 0rem;
+    .block2{
+        width: calc(100%/3); 
+        height:120px; 
+        border-left: 1px solid $creamy;
+        border-right: 1px solid $creamy;   
+        padding-left: 2em;      
+        color: $creamy;        
+        .partners-text {
+            color: $creamy;
+            .partners-info {
+                color: $creamy;
+                padding-top: 0.5rem;  
+                a {
+                    list-style-type: none;
+                    color: $creamy; 
+                }
             }
         }
+    }
+    .block3{
+        width: calc(100%/3);           
+        padding-left: 2em;   
+        align-items: center;            
+        color: $creamy;
+        line-height: 1.5em;
+        .rights-text {
+            color: $creamy;
+        }
+        .copyright-text {
+            color: $creamy;
+        }
+        .copyright-img {
+            width: 20px;
+            height: 20px;
+            margin-left: 0.2rem;
+            margin-right: 0.2rem;
+            padding-bottom: 0rem;
+        }
+    }
 }

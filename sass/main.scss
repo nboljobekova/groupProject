@@ -1,15 +1,15 @@
 .main-content {
     width: 100%;
-    background-color: $cream;
+    background-color: $creamy;
 }
 .main-info {
     height: 100%;
-    background-color: $violet-wine;
+    background-color: $purple;
     color: $creamy;
     padding: 1.5rem;
     .display2 {
         text-align: center;
-        text-shadow: 1px 1px 1px $cream;
+        text-shadow: 1px 1px 1px $creamy;
     }
     .general-info{            
             word-spacing: 0.1em;
@@ -31,11 +31,11 @@
             width: 280px;
             height: 30px; 
             border-radius: 5px;
-            border: 1px solid $violet-wine; 
-            color: $violet-wine;
+            border: 1px solid $purple; 
+            color: $purple;
             font-family: Rubik;
             font-weight: 600;
-            background-color: $cream;
+            background-color: $creamy;
         }           
     }
 }
@@ -46,7 +46,7 @@
     flex-direction: column;
     font-family: $font;
     color: $text;
-    border-top: 2px solid $violet-wine;
+    border-top: 2px solid $purple;
     h2 {
         font-size: 30px;
         text-align: center;
@@ -71,7 +71,7 @@
             align-items: flex-start;
             position: absolute;
             transform: translate(-50%, -50%);
-            background-color: $cream;
+            background-color: $creamy;
             width: 350px;
             height: 250px;
             .card {
@@ -84,7 +84,7 @@
                 backface-visibility: hidden;
             }
             #card-front {
-                background: $violet-wine;
+                background: $purple;
                 z-index: 2;
                 .icon {
                     transform-origin: 0 0;

@@ -2,7 +2,7 @@
     display: none;
     position: sticky;
     height: 70px;
-    background-color: $violet-wine;   	  
+    background-color: $purple;   	  
     .logo-wrap {
         img {
         height: 70px; 
@@ -20,7 +20,7 @@
             display: inline-block;
         a {
             padding: 1.2rem 1rem;
-            color: $cream;
+            color: $creamy;
             font-family: $font;
             font-size: 18px;
             font-weight: 300;
@@ -40,15 +40,15 @@
     .navbar-sign-item {
         display: inline-block;
         height: 35px;
-        color: $cream;
+        color: $creamy;
         margin-top: 0.3em;
         padding: .6em 1em;
         border-radius:1em;
         box-shadow: 0px 2px 3px #593244;  
     }   
     .navbar-sign-item:hover {
-        background-color: $cream;
-        color: $violet-wine;
+        background-color: $creamy;
+        color: $purple;
     }
     @media only screen and (max-width: 600px) {
         .logo-wrap {
@@ -65,7 +65,7 @@
             padding: 12px 15px;
             font-weight: bold;
             font-size: 16px;
-            color: $cream;           
+            color: $creamy;           
     }
 }
 }

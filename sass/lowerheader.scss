@@ -1,5 +1,5 @@
 .lowerheader {
-    background-color: $violet-wine;
+    background-color: $purple;
     display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -20,13 +20,13 @@
             list-style-type: none;
             display: inline-block;
             :hover{
-                background-color: $cream;
-                color: $violet-wine;
+                background-color: $creamy;
+                color: $purple;
                 border-radius: 5px;
             }
         a {
             padding: 1.2rem 1rem;
-            color: $cream;
+            color: $creamy;
             font-family: $font;
             font-size: 18px;
             font-weight: 300;
@@ -45,7 +45,7 @@
         }
         #touch-menu {
             display: block;
-            color: $cream;
+            color: $creamy;
             font-weight: 300;
             padding-top: 1rem;
             padding-right: 1rem;

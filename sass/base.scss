@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0; 
     font-family: $font; 
-    // background-color: $cream;
   
     p,
     h1,
@@ -14,10 +13,13 @@
         font-weight: 400;
     }
 
+    h1{
+        color: $h1text;
+    }
+    color: $text;
     a {
         text-decoration: none;
         background-color: transparent;
-        color: $text;
 
         &:hover{
             text-decoration: none;

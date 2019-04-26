@@ -1,5 +1,5 @@
 .info-content {
-    background-color: $cream;
+    background-color: $creamy;
     .info-content-main {
         background-image: url(../images/info-page1.jpg);
         background-position: center;
@@ -12,7 +12,7 @@
             }
         .display2 {
             text-align: center;
-            color: $violet-wine;
+            color: $purple;
             font-weight: 600;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem; 
@@ -25,15 +25,12 @@
         .text-mini-title {            
             text-align: left;
             padding-top: 1.5rem;  
-            color: $violet-wine;
+            color: $purple;
             font-weight: 600; 
         }
         .ul{
                 line-height: 150%; 
-            }
-                       
-        }
-         
-                        
+        }              
+    }                      
  }
 

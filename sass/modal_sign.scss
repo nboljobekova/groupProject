@@ -14,7 +14,7 @@ Login/Signup modal window
 .navbar-sign-item {
     display: inline-block;
     height: 35px;
-    color: $violet-wine;
+    color: $purple;
     font-size: 16px;
     padding: .6em 1em;
     border-radius:1em;
@@ -22,8 +22,8 @@ Login/Signup modal window
 }
 
 .navbar-sign-item:hover {
-    background-color: $violet-wine;
-    color: $cream;
+    background-color: $purple;
+    color: $creamy;
 }
 
 /* -------------------------------- 
@@ -139,8 +139,8 @@ border-radius: 0.25em;
 border: 1px solid #d2d8d8;
 padding: 12px 20px 12px 50px;
 cursor: pointer;
-background: $violet-wine;
-color: $cream;
+background: $purple;
+color: $creamy;
 font-weight: bold;
 text-align: center;
 }
@@ -148,7 +148,7 @@ text-align: center;
 .modal-signin-btn:hover, .modal-signin-btn:focus {
 background: #63002d;
 outline: none;
-color: $cream;
+color: $creamy;
 }
 
 

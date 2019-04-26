@@ -167,9 +167,10 @@ window.onload = function() {
     }
 
     _2gis_maps__WEBPACK_IMPORTED_MODULE_0___default.a.map("map", {
-        center: [54.98, 82.89],
+        center: [42.85, 74.61],
         zoom: 13
     });
+    _2gis_maps__WEBPACK_IMPORTED_MODULE_0___default.a.marker([42.87,74.59]).addTo(map).bindPopup("Amalie Beauty Studio");
 };
 
 

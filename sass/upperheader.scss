@@ -1,5 +1,5 @@
 header {
-	background-color: $cream;
+	background-color: $creamy;
 }
 .upperheader {
 	display: flex;
@@ -14,7 +14,7 @@ header {
 	.navbar-sn-links {
 		list-style-type: none;			
 		.navbar-text {
-			color: $violet-wine;
+			color: $purple;
 			font-family: $font;
 			font-size: 18px;
 			font-weight: 300;
@@ -22,7 +22,7 @@ header {
 		a {
 		display: inline-block;
 		padding: 0.7rem 0.5rem;
-		color: $cream;			
+		color: $creamy;			
 		}
 	}
 	@media only screen and (max-width: 600px) {
@@ -36,7 +36,7 @@ header {
 		.navbar-sign-item {
 			display: inline-block;
 			height: 25px;
-			color: $violet-wine;
+			color: $purple;
 			font-size: 12px;
 			padding: .6em 1em;
 			border-radius:1em;			 

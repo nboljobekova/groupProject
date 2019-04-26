@@ -5,8 +5,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    border: 2px solid $violet-wine;
-    background: $cream;
+    border: 2px solid $purple;
+    background: $creamy;
     z-index: 100;
     cursor: pointer;
     outline: 0!important;           
@@ -14,8 +14,8 @@
         content: " ";
         width: 10px;
         height: 10px;
-        border-top: 2px solid $violet-wine;
-        border-left: 2px solid $violet-wine;
+        border-top: 2px solid $purple;
+        border-left: 2px solid $purple;
         transform: rotate(45deg);
         position: absolute;
         top: 4px; bottom: 0;

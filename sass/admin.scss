@@ -1,5 +1,5 @@
 .admin {
-    background-color: $cream;
+    background-color: $creamy;
     height: 100%;
 }
 
@@ -11,8 +11,8 @@
 .admin_sidebar_block {
     display: flex;
     flex-direction: column;
-    background-color: $violet-wine;
-    color: $cream;
+    background-color: $purple;
+    color: $creamy;
 
 }
 .admin_logo {
@@ -49,19 +49,19 @@
     }
     .admin_navbar_links {
         border-radius: 3px;
-        border-bottom: 1px solid $cream;
+        border-bottom: 1px solid $creamy;
         box-shadow: 5px -5px 10px 0px rgba(0, 0, 0, 0.075);
     }
     a {
         padding: 1.2rem 1rem;
-        color: $cream;
+        color: $creamy;
         font-size: 1.2em;
         text-align: center;
         display: block;
     }
     a:hover {
-        background-color: $cream;
-        color: $violet-wine;
+        background-color: $creamy;
+        color: $purple;
     }
 }
 
@@ -137,7 +137,7 @@
         .box {
             width: 50%;
             height: 50%;
-            background-color: $cream;
+            background-color: $creamy;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -151,7 +151,7 @@
     .service_info.add {
         display: flex;
         justify-content: center;
-        color: $cream;
+        color: $creamy;
         p {
             text-align: center;
             margin-top: 1.5em;
