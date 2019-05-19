@@ -441,13 +441,14 @@ svg {
   padding: 1.5rem; }
   .main-info .display2 {
     text-align: center;
-    text-shadow: 1px 1px 1px #faf9fc; }
+    color: #faf9fc; }
   .main-info .general-info {
     word-spacing: 0.1em;
     line-height: 175%;
     text-align: justify;
     padding-top: 1rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    color: #faf9fc; }
 
 .search-category {
   margin-top: 1.5rem;
